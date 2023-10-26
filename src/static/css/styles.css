@@ -1,0 +1,16 @@
+.carousel-container {
+  width: 90%;
+  height: 60%;
+}
+
+.carousel-caption {
+  background-color: rgba(214, 213, 215, 0.88);
+  border-radius: 0.25em;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  max-width: 45%;
+  max-height: 30%;
+}
+
+/*# sourceMappingURL=styles.css.map */
