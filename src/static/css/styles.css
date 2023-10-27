@@ -13,4 +13,21 @@
   max-height: 30%;
 }
 
+.main__services {
+  display: flex;
+  gap: 3rem;
+  padding: 4rem;
+  margin: 0 auto;
+}
+
+.footer__content {
+  padding: 3rem 5rem;
+}
+.footer__foot {
+  background-color: #2D5A72;
+  color: white;
+  min-height: 4rem;
+  padding: 1.5rem 5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
