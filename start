@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# automating stuff
+npm start & sass --watch "src\static\css\styles.sass" "src\static\css\styles.css"
