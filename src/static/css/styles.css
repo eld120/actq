@@ -1,16 +1,5 @@
-.carousel-container {
-  width: 90%;
-  height: 60%;
-}
-
-.carousel-caption {
-  background-color: rgba(214, 213, 215, 0.88);
-  border-radius: 0.25em;
-  position: absolute;
-  left: 30%;
-  top: 20%;
-  max-width: 45%;
-  max-height: 30%;
+.fs-7 {
+  font-size: 12px;
 }
 
 .main__services {
@@ -21,13 +10,21 @@
 }
 
 .footer__content {
-  padding: 3rem 5rem;
+  padding: 3rem 3rem;
+}
+.footer__content p, .footer__content h6, .footer__content a {
+  margin: 0;
 }
 .footer__foot {
   background-color: #2D5A72;
   color: white;
   min-height: 4rem;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 3rem 0 3rem;
+}
+.footer__copy-terms {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */
