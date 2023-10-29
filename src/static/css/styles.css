@@ -14,6 +14,7 @@
   max-width: 60%;
   height: 25em;
   object-fit: cover;
+  border-radius: 0.25em;
 }
 .main__hero-section .carousel-text {
   max-height: 60%;
@@ -21,6 +22,11 @@
   color: #FEFEFE;
   padding: 1.5rem 1.5rem;
   margin: auto 0;
+  border-radius: 0.25em;
+}
+.main__hero-section .carousel-control-next-icon,
+.main__hero-section .carousel-control-prev-icon {
+  display: flex;
 }
 .main__services {
   display: flex;
