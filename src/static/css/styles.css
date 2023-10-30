@@ -2,8 +2,9 @@
   font-size: 12px;
 }
 
-main {
-  color: black;
+header .actq-logo {
+  height: 75%;
+  width: 75%;
 }
 
 .main__hero-section {
