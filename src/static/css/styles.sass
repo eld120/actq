@@ -1,10 +1,30 @@
 @use 'partials/bootstrap.scss'
     
 $accent-color: #2D5A72
-$background-color: #FEFEFE
+$accent-hover: rgba(45, 90, 114, 0.65) 
+$primary-color: #FEFEFE
+$secondary-color: #F0F0EF
 
 .fs-7
     font-size: 12px
+
+.card
+    width: 18.75em
+    height: 16.1875em
+    padding: 1rem
+    background-color: $secondary-color  
+    -webkit-box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
+    -moz-box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
+    box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
+.card:hover
+    -webkit-box-shadow: 1px 1px 2px 0px $accent-hover
+    -moz-box-shadow: 1px 1px 2px 0px $accent-hover
+    box-shadow: 1px 1px 2px 0px $accent-hover
+svg
+    max-height: 78px
+    max-width: 78px
+svg:not(:root) 
+    overflow: hidden
 
 header
     .actq-logo
@@ -28,7 +48,11 @@ header
         .carousel-text
             max-height: 60%
             max-width: 50%
-            color: $background-color
+            background-color: rgba(0, 0, 0, 0.219)
+            -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            color: $primary-color
             padding: 1.5rem 1.5rem
             margin: auto 0
             border-radius: .25em
@@ -42,12 +66,29 @@ header
         
     &__services
         display: flex
-        gap: 3rem
+        gap: 2rem
         padding: 4rem
         margin: 0 auto
+        
+       
+    &__player
+        width: 75vw
+        border-top: 3px solid #2D5A72
+        padding-top: 3rem
+    .hr-70
+        width: 70vw
+    &__cta
+        
+        display: flex
+        flex-direction: column
+        gap: 3rem
+        .links-cta
+            display: flex
+            gap: 2rem
+            flex-wrap: wrap
 
-
-
+#mainSection
+    background-color: $secondary-color
 
 .footer
     &__content
@@ -63,3 +104,5 @@ header
         display: flex
         margin: 0 auto
         justify-content: space-between
+    a
+        color: white
