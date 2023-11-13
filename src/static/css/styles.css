@@ -12563,9 +12563,14 @@ header .actq-logo {
 }
 .main__hero-section .carousel-page {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: auto 0;
+  padding-bottom: 2.7em;
+  background-color: rgba(0, 0, 0, 0.219);
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
+  -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
+  box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
 }
 .main__hero-section .carousel-page .text-container {
   height: 60vh;
@@ -12579,20 +12584,19 @@ header .actq-logo {
 .main__hero-section .carousel-text {
   display: flex;
   max-width: 25vw;
+  min-width: 12em;
   height: 100%;
-  text-align: center;
-  align-content: center;
-  background-color: rgba(0, 0, 0, 0.219);
-  -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
-  -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
-  box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
   color: #FEFEFE;
   padding: 1.5rem 1.5rem;
   border-radius: 0.25em 0 0 0.25em;
 }
 .main__hero-section .carousel-control-next,
 .main__hero-section .carousel-control-prev {
+  display: flex;
+  align-items: flex-end;
+  z-index: 3;
   width: 10%;
+  padding-bottom: 0.5rem;
 }
 .main__hero-section .carousel-indicators {
   margin-bottom: 0.3rem;
@@ -12666,6 +12670,12 @@ header .actq-logo {
   flex-direction: column;
   gap: 1.5rem;
   padding-top: 2.05rem;
+}
+
+@media only screen and (max-width: 48em) {
+  .main__hero-section .carousel-page {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
