@@ -43,11 +43,17 @@ header
         .carousel-page
             display: flex
             // gap: 3rem
-            justify-content: center
+            justify-content: space-between
             align-items: center
             margin: auto 0
+            padding-bottom: 2.7em
+            background-color: rgba(0, 0, 0, 0.219)
+            -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
             .text-container
                 height: 60vh
+                
                    
             img
                 max-width: 50vw
@@ -58,23 +64,18 @@ header
             // max-height: 25em
             display: flex
             max-width: 25vw
+            min-width: 12em
             height: 100%
-            text-align: center
-            align-content: center
-            background-color: rgba(0, 0, 0, 0.219)
-            -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
-            -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
-            box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
             color: $primary-color
             padding: 1.5rem 1.5rem
-            
             border-radius: .25em 0 0 .25em
         .carousel-control-next, 
         .carousel-control-prev
-            // display: flex
-            // align-items: flex-end
-            // z-index: 3
+            display: flex
+            align-items: flex-end
+            z-index: 3
             width: 10%
+            padding-bottom: .5rem
         .carousel-indicators
             margin-bottom: 0.3rem
         
@@ -138,6 +139,19 @@ header
             gap: 1.5rem
             padding-top: 2.05rem
         // .contact-contents
+
+@media only screen and (max-width: 64em) 
+    .main
+        &__hero-section
+            .carousel-page
+                
+
             
-            
-            
+@media only screen and (max-width: 48em) 
+    .main
+        &__hero-section
+            .carousel-page
+                flex-direction: column
+
+
+
