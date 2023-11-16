@@ -1,19 +1,22 @@
 <div class="footer__contact">
-    <h2 class="text-center">Send Us A Message</h2>
-    <form action="https://formsubmit.co/devteam@origma.io" method="POST" class="form-floating mb-3 form" >
-            <div class="form-wrapper">
-                <div class="contact-header">
-                    <div class="form-floating">
+    <h3 class="text-center">Send Us A Message</h3>
+    <form action="https://formsubmit.co/devteam@origma.io" method="POST" class="form-floating form" >
+            <div class="form-wrapper mb-3 ">
+                <div class="contact-header ">
+                    <div class="mb-3">
+                        <label class="form-label" for="contact-name">Name</label>
                         <input type="text" class="form-control" id="contact-name" name="name" placeholder="Your Name" required>
-                        <label for="contact-name">Name</label>
+                        
                     </div>
-                    <div class="form-floating">
+                    <div class="mb-3">
+                        <label class="form-label" for="contact-subject">Subject</label>
                         <input type="text" class="form-control" id="contact-subject" name="subject" placeholder="Subject" required>
-                        <label for="contact-subject">Subject</label>
+                        
                     </div>
-                    <div class="form-floating">
+                    <div class="mb-3">
+                        <label class="form-label" class="form-label" for="contact-email">Email</label>
                         <input type="email" class="form-control" id="contact-email" name="email" placeholder="Your Email Address" required>
-                        <label for="contact-email">Email</label>
+                        
                     </div>
                 </div>
                 <div class="contact-contents">
@@ -25,7 +28,7 @@
                 </div>
             </div>
         
-        <div class="g-recaptcha" data-sitekey="6Ld5jwMpAAAAANOjqcuof5dkxwIJ9lggJa74iV0c"></div>
+        {# <div class="g-recaptcha" data-sitekey="6Ld5jwMpAAAAANOjqcuof5dkxwIJ9lggJa74iV0c"></div> #}
          <button class="btn btn-primary px-3"type="submit">Send</button>
     </form>
 </div>
