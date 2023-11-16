@@ -9,8 +9,8 @@ $secondary-color: #F0F0EF
     font-size: 12px
 
 .card
-    width: 18.75em
-    height: 16.1875em
+    min-width: 18.75em
+    height: 18em
     max-width: 30vw
     padding: 1rem
     background-color: $secondary-color  
@@ -22,38 +22,42 @@ $secondary-color: #F0F0EF
     -moz-box-shadow: 1px 1px 2px 0px $accent-hover
     box-shadow: 1px 1px 2px 0px $accent-hover
 svg
-    max-height: 78px
-    max-width: 78px
+    height: 78px
+    width: 78px
 svg:not(:root) 
     overflow: hidden
 
 header
-    height: 20vh
+    min-height: 20vh
     .actq-logo
         height: 75%
         width: 75%
 
 
 .main
+    header
+        .off-wrapper
+            justify-content: flex-end
     &__hero-section
         background-color: $accent-color
         padding: 3rem 3rem
-        height: 80vh
+        min-height: 80vh
         
         .carousel-page
             display: flex
             // gap: 3rem
-            justify-content: space-between
+            
+            justify-content: space-around
             align-items: center
             margin: auto 0
             padding-bottom: 2.7em
-            background-color: rgba(0, 0, 0, 0.219)
-            -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
-            -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
-            box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            // background-color: rgba(0, 0, 0, 0.219)
+            // -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            // -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
+            // box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
             .text-container
                 height: 60vh
-                
+            
                    
             img
                 max-width: 50vw
@@ -81,9 +85,12 @@ header
         
     &__services
         display: block
-        padding: 4rem
+        min-height: 100vh
+        padding: 3rem
         margin: 0 auto
         text-align: center
+        h2
+            margin-bottom: 1.5em
         .services-cards
             display: flex
             gap: 2rem
@@ -111,9 +118,13 @@ header
 
 .footer
     &__content
-        padding: 3rem 3rem
+        
         p, h6, a
             margin: 0
+    &__content-wrapper
+        display: flex
+        gap: 1.5rem
+        padding: 3rem 3rem
     &__foot
         background-color: $accent-color
         color: white
@@ -126,24 +137,25 @@ header
     a
         color: white
     &__contact
-        padding: 1.5rem 5rem
-        margin: 1em auto
+        // padding: 1.5rem 2rem
+        margin: 0 auto
         .form-wrapper
             display: flex
-            gap: 3rem
-            justify-content: center
+            gap: .5rem
+            // padding: 1rem 0
             flex-wrap: wrap
         .contact-header
             display: flex
             flex-direction: column
-            gap: 1.5rem
-            padding-top: 2.05rem
+            
+            // padding-top: 2.05rem
         // .contact-contents
 
 @media only screen and (max-width: 64em) 
     .main
         &__hero-section
             .carousel-page
+                color: white
                 
 
             
