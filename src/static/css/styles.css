@@ -12555,10 +12555,14 @@ header .actq-logo {
   height: 75%;
   width: 75%;
 }
-
-.main header .off-wrapper {
+header .off-wrapper {
   justify-content: flex-end;
 }
+header .navbar-toggler:focus {
+  border: none;
+  box-shadow: 0 0 0 1px;
+}
+
 .main__hero-section {
   background-color: #2D5A72;
   padding: 3rem 3rem;
