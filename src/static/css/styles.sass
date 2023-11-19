@@ -28,19 +28,26 @@ svg:not(:root)
     overflow: hidden
 
 header
+    min-height: 20svh
     min-height: 20vh
     .actq-logo
         height: 75%
         width: 75%
+    .off-wrapper
+        justify-content: flex-end
+    .navbar-toggler:focus
+        border: none
+        box-shadow: 0 0 0 1px
+    
 
 
 .main
-    header
-        .off-wrapper
-            justify-content: flex-end
+    
+        
     &__hero-section
         background-color: $accent-color
         padding: 3rem 3rem
+        min-height: 80svh
         min-height: 80vh
         
         .carousel-page
@@ -56,11 +63,13 @@ header
             // -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
             // box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65)
             .text-container
+                height: 60svh
                 height: 60vh
             
                    
             img
                 max-width: 50vw
+                height: 60svh
                 height: 60vh
                 object-fit: cover
                 border-radius:0 .25em .25em 0
@@ -85,6 +94,7 @@ header
         
     &__services
         display: block
+        min-height: 100svh
         min-height: 100vh
         padding: 3rem
         margin: 0 auto
