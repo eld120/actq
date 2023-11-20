@@ -1,6 +1,7 @@
 ---
 title: ACTQ | Our Services
 layout: base.njk
+permalink: /services
 ---
 
 "Optimize Your Finances Today!"
