@@ -1,8 +1,8 @@
 <header>
 
-    <nav class="navbar navbar-expand-lg bg-body-light px-5" role="navigation">
-        <div class="container-fluid justify-space-between" >
-            <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg bg-body-light flex-nowrap" role="navigation">
+        <div class="container-fluid justify-space-between " >
+            <a class="navbar-brand" href="/">
                 <img class="actq-logo" src="/assets/actq_logo.png" alt="Accounteque Services, Inc Experienced Accountants">
             </a>
         
@@ -13,15 +13,15 @@
                 <div class="off-wrapper offcanvas-body">
                     <ul class="navbar-nav mb-2 mb-md-0 gap-2 px-2" >
                     <li class="nav-item" ><a class="nav-link fs-6 active fw-semibold" aria-current="page" href="{{ '/' | url}}">Home</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link fs-6 dropdown-toggle fw-semibold" data-bs-toggle="dropdown" aria-expanded="false" href="{{ '/services' | url }}">Services</a>
+                    <li class="nav-item dropdown"><a class="nav-link fs-6 dropdown-toggle fw-semibold" data-bs-toggle="dropdown" aria-expanded="false" href="{{ '/services/' | url }}">Services</a>
                         <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="{{ '/accounting' | url }}">Bookkeeping</a></li>
-                            <li><a class="dropdown-item" href="{{ '/accounting' | url }}">Business Valuations</a></li>
-                            <li><a class="dropdown-item" href="{{ '/financial-planning' | url }}">Financial Planning</a></li>
-                            <li><a class="dropdown-item" href="{{ '/financial-planning' | url }}">Financial Statements</a></li>
-                            <li><a class="dropdown-item" href="{{ '/tax-prep' | url }}">Individuals</a></li>
-                            <li><a class="dropdown-item" href="{{ '/accounting' | url }}">Payroll Services</a></li>
-                            <li><a class="dropdown-item" href="{{ '/tax-prep' | url }}">Tax Returns</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/accounting' | url }}">Bookkeeping</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/accounting' | url }}">Business Valuations</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/finances' | url }}">Financial Planning</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/finances' | url }}">Financial Statements</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/tax-prep' | url }}">Individuals</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/accounting' | url }}">Payroll Services</a></li>
+                            <li><a class="dropdown-item" href="{{ '/services/tax-prep' | url }}">Tax Returns</a></li>
                             {# <li><a class="dropdown-item" href="">Tax Planning</a></li> #}
                     
                         </ul>

@@ -1,7 +1,7 @@
 ---
 title: ACTQ | Our Services
 layout: base.njk
-permalink: /tax-prep
+permalink: /services/tax-prep/
 ---
 
 

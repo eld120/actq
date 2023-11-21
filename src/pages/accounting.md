@@ -1,7 +1,7 @@
 ---
 title: ACTQ | Our Services
 layout: base.njk
-permalink: /accounting
+permalink: /services/accounting/
 ---
 
 
