@@ -30,6 +30,11 @@ svg:not(:root)
 header
     min-height: 20svh
     min-height: 20vh
+    .navbar
+        padding: .5em 3em
+        #nav-img-sm, #nav-img-md
+                display: none
+        
     .actq-logo
         height: 75%
         width: 75%
@@ -162,6 +167,13 @@ header
         // .contact-contents
 
 @media only screen and (max-width: 64em) 
+    header
+        .navbar
+            padding: .5em 1em
+            #nav-img-sm, #nav-img-lg
+                display: none
+            #nav-img-md
+                display: block
     .main
         &__hero-section
             .carousel-page
@@ -170,6 +182,16 @@ header
 
             
 @media only screen and (max-width: 48em) 
+    header
+        .navbar
+            padding: .5em 1em
+            #nav-img-sm, #nav-img-lg
+                display: none
+            #nav-img-md
+                display: block
+        .actq-logo
+            height: 90%
+            width: 90%
     .main
         &__hero-section
             .carousel-page

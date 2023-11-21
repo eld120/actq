@@ -12549,7 +12549,14 @@ svg:not(:root) {
 }
 
 header {
+  min-height: 20svh;
   min-height: 20vh;
+}
+header .navbar {
+  padding: 0.5em 3em;
+}
+header .navbar #nav-img-sm, header .navbar #nav-img-md {
+  display: none;
 }
 header .actq-logo {
   height: 75%;
@@ -12566,6 +12573,7 @@ header .navbar-toggler:focus {
 .main__hero-section {
   background-color: #2D5A72;
   padding: 3rem 3rem;
+  min-height: 80svh;
   min-height: 80vh;
 }
 .main__hero-section .carousel-page {
@@ -12576,10 +12584,12 @@ header .navbar-toggler:focus {
   padding-bottom: 2.7em;
 }
 .main__hero-section .carousel-page .text-container {
+  height: 60svh;
   height: 60vh;
 }
 .main__hero-section .carousel-page img {
   max-width: 50vw;
+  height: 60svh;
   height: 60vh;
   object-fit: cover;
   border-radius: 0 0.25em 0.25em 0;
@@ -12606,6 +12616,7 @@ header .navbar-toggler:focus {
 }
 .main__services {
   display: block;
+  min-height: 100svh;
   min-height: 100vh;
   padding: 3rem;
   margin: 0 auto;
@@ -12678,11 +12689,33 @@ header .navbar-toggler:focus {
 }
 
 @media only screen and (max-width: 64em) {
+  header .navbar {
+    padding: 0.5em 1em;
+  }
+  header .navbar #nav-img-sm, header .navbar #nav-img-lg {
+    display: none;
+  }
+  header .navbar #nav-img-md {
+    display: block;
+  }
   .main__hero-section .carousel-page {
     color: white;
   }
 }
 @media only screen and (max-width: 48em) {
+  header .navbar {
+    padding: 0.5em 1em;
+  }
+  header .navbar #nav-img-sm, header .navbar #nav-img-lg {
+    display: none;
+  }
+  header .navbar #nav-img-md {
+    display: block;
+  }
+  header .actq-logo {
+    height: 90%;
+    width: 90%;
+  }
   .main__hero-section .carousel-page {
     flex-direction: column;
   }
