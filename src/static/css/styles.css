@@ -12646,6 +12646,9 @@ header .navbar-toggler:focus {
   gap: 2rem;
   flex-wrap: wrap;
 }
+.main .services-content {
+  padding: 1.5em 3em;
+}
 
 #mainSection {
   background-color: #F0F0EF;
