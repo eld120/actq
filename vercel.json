@@ -1,7 +1,7 @@
 {
     "git": {
       "deploymentEnabled": {
-        "main": false,
+        "main": true,
         "seya/homepage": false,
         "seya/redesign": false,
         "staging" : true
