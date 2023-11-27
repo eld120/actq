@@ -1,17 +1,45 @@
 ---
 title: ACTQ | Our Services
-layout: base.njk
+layout: page.njk
 permalink: /services/
 ---
 
-"Optimize Your Finances Today!"
-Unlock the full potential of your financial landscape with Accounteque Services Inc. Explore our tailored solutions for accounting, tax preparation, payroll, business valuations, and financial planning. Let's elevate your financial strategy together.
+## Bookkeeping
 
-"Secure Your Financial Future – Contact Us Now!"
-Take the first step towards financial stability and growth. Connect with our experienced CPAs at Accounteque Services Inc to discuss how our services can empower your business or personal finances. Don't wait—secure your financial future today.
-
-"Partner with Excellence – Consult with ACTQ!"
-Experience the difference of working with seasoned CPAs. Schedule a consultation with Accounteque Services Inc for expert accounting, tax, payroll, valuation, and financial planning services. Elevate your financial journey – partner with excellence!
+Timely, efficient bookkeeping services are available for businesses of all sizes. Computerized accounts are prepared, saved and presented for client review on a quarterly, monthly, and/or annual basis. Budgeting and forecasting support are also available. We support all major accounting programs including Quickbooks and Peachtree.
 
 
----
+## Financial Statements
+
+Financial Statement preparation for small business clients is a long-standing service of this firm. Depending on the client's needs, monthly, quarterly and year-end balance sheet and detailed operating statements can be prepared and analyzed on a timely basis. The state-of-the-art accounting software used in our office can provide helpful comparisons and calculations for effective, practical business analysis.
+
+
+## Payroll Services
+
+Total payroll services for small business clients have been provided for many years. Services include: Set up and maintenance of all records, time card tabulations, withholdings of tax and benefit contributions, Federal and State tax filings, issuance of checks and preparation of all W-2's and 1099 forms.
+Other Services
+
+
+## Financial Planning
+
+Whether planning for retirement or for a child's college education, financial planning is the cornerstone for meeting your goal. We help individual and business clients with a full array of planning tools. Our planning also incorporates tax and estate planning.
+
+
+## Business Valuations
+
+We specialize in a multi-dimensional approach to valuing small business for purchase or sale. We also value businesses for buy-sell agreements and for insurance purposes.
+
+
+## Individuals
+
+A core specialty is the preparation of tax returns for individual taxpayers. Over the years literally 1000's of Federal and State returns have been prepared and filed.
+
+
+## Business Tax Returns
+
+Small business tax return preparation and filing instructions is a core service offered to our clients. Whether your company is a C corporation, S Corp, Limited Liability Company, Partnership or Sole Proprietor a properly prepared tax return can be filed to minimize the tax owed. Over the years, 100's of small business Federal and State tax returns have been prepared for both service and manufacturing company clients.
+
+
+## Tax Planning
+
+Tax planning and tax forecasting services for individual and small business clients is a core competency of the firm. Effective tax minimization begins with long-term tax strategizing to establish overall objectives and is maintained with conscientious and consistent annual tax forecasting and mid-year tax planning.
