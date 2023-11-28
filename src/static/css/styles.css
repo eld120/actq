@@ -12555,9 +12555,6 @@ header {
 header .navbar {
   padding: 0.5em 3em;
 }
-header .navbar #nav-img-sm, header .navbar #nav-img-md {
-  display: none;
-}
 header .actq-logo {
   height: 75%;
   width: 75%;
@@ -12693,12 +12690,6 @@ header .navbar-toggler:focus {
   header .navbar {
     padding: 0.5em 1em;
   }
-  header .navbar #nav-img-sm, header .navbar #nav-img-lg {
-    display: none;
-  }
-  header .navbar #nav-img-md {
-    display: block;
-  }
   .main__hero-section .carousel-page {
     position: relative;
     color: white;
@@ -12724,15 +12715,9 @@ header .navbar-toggler:focus {
   header .navbar {
     padding: 0.5em 1em;
   }
-  header .navbar #nav-img-sm, header .navbar #nav-img-lg {
-    display: none;
-  }
-  header .navbar #nav-img-md {
-    display: block;
-  }
   header .actq-logo {
-    height: 90%;
-    width: 90%;
+    height: 60%;
+    width: 60%;
   }
   .main__hero-section .carousel-page {
     flex-direction: column;
