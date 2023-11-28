@@ -5,7 +5,11 @@ The purpose of this project is to redesign/redeploy my father's business website
 
 ### Quickstart
 
-To start a local dev server on localhost:8080 run: `./start`
+##### *nix:
+    To start a local dev server on localhost:8080 run: `./start`
+
+##### Windows:
+    To start a local dev server on localhost:8080 run: `.\start.ps1`
 
 
 ### Push site to staging 
