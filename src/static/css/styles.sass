@@ -172,14 +172,19 @@ header
 
 @media only screen and (max-width: 64em) 
     header
+        min-height: 13svh
+        min-height: 13vh
         .navbar
             padding: .5em 1em
-            // #nav-img-sm, #nav-img-lg
-            //     display: none
-            // #nav-img-md
-            //     display: block
+        .actq-logo
+            height: 60%
+            width: 60%
+    .main
     .main
         &__hero-section
+            padding: 3rem 1rem 2rem 1rem
+            min-height: 87svh
+            min-height: 87vh
             .carousel-page
                 position: relative
                 color: white
@@ -202,14 +207,17 @@ header
 @media only screen and (max-width: 48em) 
     header
         .navbar
-            padding: .5em 1em
+            padding: .5em 0em
             // #nav-img-sm, #nav-img-lg
             //     display: none
             // #nav-img-md
             //     display: block
+            .navbar-brand
+                width: 300px
+                height: 80px
         .actq-logo
-            height: 60%
-            width: 60%
+            width: 259.8px
+            height: 77.77px
     .main
         &__hero-section
             .carousel-page

@@ -12687,8 +12687,21 @@ header .navbar-toggler:focus {
 }
 
 @media only screen and (max-width: 64em) {
+  header {
+    min-height: 13svh;
+    min-height: 13vh;
+  }
   header .navbar {
     padding: 0.5em 1em;
+  }
+  header .actq-logo {
+    height: 60%;
+    width: 60%;
+  }
+  .main__hero-section {
+    padding: 3rem 1rem 2rem 1rem;
+    min-height: 87svh;
+    min-height: 87vh;
   }
   .main__hero-section .carousel-page {
     position: relative;
@@ -12713,11 +12726,15 @@ header .navbar-toggler:focus {
 }
 @media only screen and (max-width: 48em) {
   header .navbar {
-    padding: 0.5em 1em;
+    padding: 0.5em 0em;
+  }
+  header .navbar .navbar-brand {
+    width: 300px;
+    height: 80px;
   }
   header .actq-logo {
-    height: 60%;
-    width: 60%;
+    width: 259.8px;
+    height: 77.77px;
   }
   .main__hero-section .carousel-page {
     flex-direction: column;
