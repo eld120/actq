@@ -12684,6 +12684,13 @@ header .navbar-toggler:focus {
 .footer__contact .contact-header {
   display: flex;
   flex-direction: column;
+  width: 254px;
+}
+.footer__contact .contact-contents {
+  width: 254px;
+}
+.footer__contact button {
+  width: 70px;
 }
 
 @media only screen and (max-width: 64em) {
@@ -12757,6 +12764,11 @@ header .navbar-toggler:focus {
   }
   .footer .form-wrapper {
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 39.375em) {
+  .footer .form-floating {
+    width: 255px;
   }
 }
 
