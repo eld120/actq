@@ -5,6 +5,7 @@ $accent-hover: rgba(45, 90, 114, 0.65)
 $primary-color: #FEFEFE
 $secondary-color: #F0F0EF
 
+
 .fs-7
     font-size: 12px
 
@@ -130,8 +131,45 @@ header
 
     // SERVICES PAGE
     .services-content
-        padding: 1.5em 3em
+        position: relative
+        padding: 1.5em 2em
+        background-color: $secondary-color
+        
+        
+        .img
+            object-fit: cover
+            object-position: left
+            opacity: 75%
+            height: 100vh
+            max-width: 35vw
+        .text-wrapper
+            max-width: 50vw
+            .hd-style
+                color: $accent-color
+             
+            
 
+
+
+    // .services-content::before
+    //     content: ''
+    //     position: sticky
+    //     top: 0
+    //     left: 0
+    //     bottom: 0
+    //     z-index: 0
+    //     display: block
+    //     height: 100vh
+    //     width: 35vw
+    //     background-image: url('../../assets/savings-jar.jpg' ) 
+    //     background-repeat: no-repeat
+    //     background-position: left
+    //     background-size: auto 100vh
+            
+    // .services-wrapper
+    //     position: relative
+    //     z-index: 2
+            
 #mainSection
     background-color: $secondary-color
 
@@ -179,7 +217,7 @@ header
         min-height: 13svh
         min-height: 13vh
         .navbar
-            padding: .5em 1em
+            padding: .5em 2em
         .actq-logo
             height: 60%
             width: 60%
