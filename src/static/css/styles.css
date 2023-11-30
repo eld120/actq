@@ -12648,12 +12648,18 @@ header .navbar-toggler:focus {
   padding: 1.5em 2em;
   background-color: #F0F0EF;
 }
+.main .services-content .serv {
+  display: flex;
+  justify-content: space-between;
+}
 .main .services-content .img {
   object-fit: cover;
   object-position: left;
   opacity: 75%;
-  height: 100vh;
+  height: 100%;
   max-width: 35vw;
+  top: 0;
+  bottom: 0;
 }
 .main .services-content .text-wrapper {
   max-width: 50vw;
@@ -12773,9 +12779,23 @@ header .navbar-toggler:focus {
     height: 60svh;
     height: 60vh;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: #F0F0EF;
     padding: 20vh 2em;
     text-align: center;
+  }
+  .services-content .img {
+    display: none;
+  }
+  .services-content .serv {
+    background-image: url("../../assets/savings-jar.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  .services-content .text-wrapper {
+    padding: 2rem 2.5rem;
+    background-color: rgba(240, 240, 239, 0.664);
+    backdrop-filter: blur(3px);
+    max-width: 100vw;
   }
   .footer .form-wrapper {
     justify-content: center;
