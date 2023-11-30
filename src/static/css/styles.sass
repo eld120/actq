@@ -7,7 +7,11 @@ $secondary-color: #F0F0EF
 $secondary-transparent: rgba(240, 240, 239, 0.664)
 
 
-
+.btn-primary
+    border-color: $accent-color
+    background-color: $accent-color
+.btn-primary:hover
+    background-color: $accent-hover
 .fs-7
     font-size: 12px
 
@@ -20,6 +24,7 @@ $secondary-transparent: rgba(240, 240, 239, 0.664)
     -webkit-box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
     -moz-box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
     box-shadow: 1px 1px 2px 0px rgba( 214, 214, 214, 0.65)
+    
 .card:hover
     -webkit-box-shadow: 1px 1px 2px 0px $accent-hover
     -moz-box-shadow: 1px 1px 2px 0px $accent-hover
@@ -155,11 +160,7 @@ header
             max-width: 40em
             .hd-style
                 color: $accent-color
-             
-            
-
-
-
+      
     // .services-content::before
     //     content: ''
     //     position: sticky
@@ -178,7 +179,14 @@ header
     // .services-wrapper
     //     position: relative
     //     z-index: 2
-            
+
+    // About Page
+    .about-wrapper
+        margin: 0 auto
+        width: 55em
+        max-width: 80vw 
+        h2
+            text-align: center 
 #mainSection
     background-color: $secondary-color
 
@@ -313,7 +321,7 @@ header
                 backdrop-filter: blur(3px)
                 width: 100%
                 max-width: 100vw
-
+        
     .footer
         // &__contact
         //     max-width: 275px

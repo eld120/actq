@@ -12518,6 +12518,15 @@ fieldset:disabled .btn {
   }
 }
 
+.btn-primary {
+  border-color: #2D5A72;
+  background-color: #2D5A72;
+}
+
+.btn-primary:hover {
+  background-color: rgba(45, 90, 114, 0.65);
+}
+
 .fs-7 {
   font-size: 12px;
 }
@@ -12668,6 +12677,14 @@ header .navbar-toggler:focus {
 }
 .main .services-content .text-wrapper .hd-style {
   color: #2D5A72;
+}
+.main .about-wrapper {
+  margin: 0 auto;
+  width: 55em;
+  max-width: 80vw;
+}
+.main .about-wrapper h2 {
+  text-align: center;
 }
 
 #mainSection {
