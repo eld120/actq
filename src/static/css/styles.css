@@ -12644,7 +12644,22 @@ header .navbar-toggler:focus {
   flex-wrap: wrap;
 }
 .main .services-content {
-  padding: 1.5em 3em;
+  position: relative;
+  padding: 1.5em 2em;
+  background-color: #F0F0EF;
+}
+.main .services-content .img {
+  object-fit: cover;
+  object-position: left;
+  opacity: 75%;
+  height: 100vh;
+  max-width: 35vw;
+}
+.main .services-content .text-wrapper {
+  max-width: 50vw;
+}
+.main .services-content .text-wrapper .hd-style {
+  color: #2D5A72;
 }
 
 #mainSection {
@@ -12699,7 +12714,7 @@ header .navbar-toggler:focus {
     min-height: 13vh;
   }
   header .navbar {
-    padding: 0.5em 1em;
+    padding: 0.5em 2em;
   }
   header .actq-logo {
     height: 60%;
