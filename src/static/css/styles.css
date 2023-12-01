@@ -12562,7 +12562,7 @@ header {
   min-height: 20vh;
 }
 header .navbar {
-  padding: 0.5em 3em;
+  padding: 0.5em 2.75em 0.5em 3em;
 }
 header .actq-logo {
   height: 75%;
@@ -12654,7 +12654,7 @@ header .navbar-toggler:focus {
 }
 .main .services-content {
   position: relative;
-  padding: 1.5em 2em;
+  padding: 1.5em 3em;
   background-color: #F0F0EF;
 }
 .main .services-content .serv {
@@ -12672,7 +12672,7 @@ header .navbar-toggler:focus {
   bottom: 0;
 }
 .main .services-content .text-wrapper {
-  width: 50vw;
+  width: 45vw;
   max-width: 40em;
 }
 .main .services-content .text-wrapper .hd-style {
@@ -12740,9 +12740,6 @@ header .navbar-toggler:focus {
     min-height: 13svh;
     min-height: 13vh;
   }
-  header .navbar {
-    padding: 0.5em 2em;
-  }
   header .actq-logo {
     height: 60%;
     width: 60%;
@@ -12775,7 +12772,7 @@ header .navbar-toggler:focus {
 }
 @media only screen and (max-width: 48em) {
   header .navbar {
-    padding: 0.5em 0em;
+    padding: 0.5em 1.5em;
   }
   header .navbar .navbar-brand {
     width: 300px;
@@ -12804,6 +12801,9 @@ header .navbar-toggler:focus {
     padding: 20vh 2em;
     text-align: center;
   }
+  .main .services-content {
+    padding: 2em 1.5em;
+  }
   .main .services-content .img {
     display: none;
   }
@@ -12819,6 +12819,12 @@ header .navbar-toggler:focus {
     backdrop-filter: blur(3px);
     width: 100%;
     max-width: 100vw;
+  }
+  .footer {
+    padding: 2em 1.5em;
+  }
+  .footer__content-wrapper {
+    padding: 2em 0;
   }
   .footer .form-wrapper {
     justify-content: center;
