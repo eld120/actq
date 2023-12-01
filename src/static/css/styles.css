@@ -12518,13 +12518,15 @@ fieldset:disabled .btn {
   }
 }
 
-.btn-primary {
+.btn-custom {
   border-color: #2D5A72;
   background-color: #2D5A72;
+  color: white;
 }
 
-.btn-primary:hover {
+.btn-custom:hover {
   background-color: rgba(45, 90, 114, 0.65);
+  color: white;
 }
 
 .fs-7 {
@@ -12535,7 +12537,7 @@ fieldset:disabled .btn {
   min-width: 18.75em;
   height: 18em;
   max-width: 25em;
-  padding: 1rem;
+  padding: 1em;
   background-color: #F0F0EF;
   -webkit-box-shadow: 1px 1px 2px 0px rgba(214, 214, 214, 0.65);
   -moz-box-shadow: 1px 1px 2px 0px rgba(214, 214, 214, 0.65);
@@ -12578,7 +12580,7 @@ header .navbar-toggler:focus {
 
 .main__hero-section {
   background-color: #2D5A72;
-  padding: 3rem 3rem;
+  padding: 3em 3em;
   min-height: 80svh;
   min-height: 80vh;
 }
@@ -12605,7 +12607,7 @@ header .navbar-toggler:focus {
   min-width: 12em;
   height: 100%;
   color: #FEFEFE;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5em 1.5em;
 }
 .main__hero-section .carousel-control-next,
 .main__hero-section .carousel-control-prev {
@@ -12613,16 +12615,16 @@ header .navbar-toggler:focus {
   align-items: flex-end;
   z-index: 3;
   width: 10%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5em;
 }
 .main__hero-section .carousel-indicators {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.3em;
 }
 .main__services {
   display: block;
   min-height: 100svh;
   min-height: 100vh;
-  padding: 3rem;
+  padding: 3em;
   margin: 0 auto;
   text-align: center;
 }
@@ -12631,13 +12633,18 @@ header .navbar-toggler:focus {
 }
 .main__services .services-cards {
   display: flex;
-  gap: 2rem;
+  gap: 2em;
   margin: 0 auto;
   justify-content: center;
 }
-.main__player {
+.main__newsletter {
+  min-height: 85vh;
   width: 75vw;
-  padding-top: 3rem;
+  padding-top: 3em;
+}
+.main__newsletter .text-wrapper {
+  width: 80vw;
+  max-width: 50em;
 }
 .main .hr-70 {
   width: 70vw;
@@ -12645,11 +12652,11 @@ header .navbar-toggler:focus {
 .main__cta {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 3em;
 }
 .main__cta .links-cta {
   display: flex;
-  gap: 2rem;
+  gap: 2em;
   flex-wrap: wrap;
 }
 .main .services-content {
@@ -12693,19 +12700,23 @@ header .navbar-toggler:focus {
   background-color: #F0F0EF;
 }
 
+.footer {
+  min-height: 100svh;
+  min-height: 100vh;
+}
 .footer__content p, .footer__content h6, .footer__content a {
   margin: 0;
 }
 .footer__content-wrapper {
   display: flex;
-  gap: 1.5rem;
-  padding: 3rem 3rem;
+  gap: 1.5em;
+  padding: 3em 3em;
 }
 .footer__foot {
   background-color: #2D5A72;
   color: white;
-  min-height: 4rem;
-  padding: 1.5rem 3rem 0 3rem;
+  min-height: 4em;
+  padding: 1.5em 3em 0 3em;
 }
 .footer__copy-terms {
   display: flex;
@@ -12716,11 +12727,11 @@ header .navbar-toggler:focus {
   color: white;
 }
 .footer__contact {
-  margin: 0 auto;
+  max-width: 38em;
 }
 .footer__contact .form-wrapper {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.5em;
   flex-wrap: wrap;
 }
 .footer__contact .contact-header {
@@ -12745,7 +12756,7 @@ header .navbar-toggler:focus {
     width: 60%;
   }
   .main__hero-section {
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 3em 3em 2em 3em;
     min-height: 87svh;
     min-height: 87vh;
   }
@@ -12772,7 +12783,7 @@ header .navbar-toggler:focus {
 }
 @media only screen and (max-width: 48em) {
   header .navbar {
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1.5em 0.5em 2.25em;
   }
   header .navbar .navbar-brand {
     width: 300px;
@@ -12797,7 +12808,7 @@ header .navbar-toggler:focus {
     height: 60svh;
     height: 60vh;
     z-index: 1;
-    background-color: #F0F0EF;
+    background-color: rgba(0, 0, 0, 0.35);
     padding: 20vh 2em;
     text-align: center;
   }
@@ -12814,14 +12825,11 @@ header .navbar-toggler:focus {
     background-position: left;
   }
   .main .services-content .text-wrapper {
-    padding: 2rem 2.5rem;
+    padding: 2em 2.5em;
     background-color: rgba(240, 240, 239, 0.664);
     backdrop-filter: blur(3px);
     width: 100%;
     max-width: 100vw;
-  }
-  .footer {
-    padding: 2em 1.5em;
   }
   .footer__content-wrapper {
     padding: 2em 0;
