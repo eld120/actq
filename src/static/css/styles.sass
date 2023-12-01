@@ -40,6 +40,14 @@ svg:not(:root)
 header
     min-height: 20svh
     min-height: 20vh
+    
+    .active > span
+        color: $accent-color
+        padding-bottom: .3em
+        border-bottom: 1px solid $accent-color
+    .active > span:hover
+        color: $accent-hover
+        border-bottom: 1px solid $accent-hover
     .navbar
         padding: .5em 2.75em .5em 3em
         // #nav-img-sm, #nav-img-md
@@ -199,8 +207,7 @@ header
     background-color: $secondary-color
 
 .footer
-    min-height: 100svh
-    min-height: 100vh
+    
     &__content
         
         p, h6, a
