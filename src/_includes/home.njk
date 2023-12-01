@@ -19,7 +19,7 @@ layout: base.njk
             <p class="carousel-text fs-3">Tax rules are constantly changing. Get help finding the deductions that matter to you.</p>
           </div>
           {# <img src="/assets/open-for-business.jpg" class="d-block ratio ratio-4x3" alt=""> #}
-          <img src="/assets/x3FvZ-Vav9j7Q1IbRCz4qQ.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a handshake in a formal business meeting">
+          <img src="{{'/assets/x3FvZ-Vav9j7Q1IbRCz4qQ.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a handshake in a formal business meeting">
         </div>
       </div>
       <div class="carousel-item">
@@ -28,7 +28,7 @@ layout: base.njk
             <p class="carousel-text fs-3">Don't plan for the future by yourself. Get tax and accounting expertise for your situation.</p>
           </div>
           {# <img src="/assets/small-office-collaboration.jpg" class="d-block ratio ratio-4x3" alt=""> #}
-          <img src="/assets/jiDj0c77HyKPyjtpiK5mJw.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a blank IRS 1040 form with a post it note that says need help? and a notepad that says Tax Planning">
+          <img src="{{'/assets/jiDj0c77HyKPyjtpiK5mJw.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a blank IRS 1040 form with a post it note that says need help? and a notepad that says Tax Planning">
         </div>
       </div>
       <div class="carousel-item">
@@ -37,7 +37,7 @@ layout: base.njk
             <p class="carousel-text fs-3">You're busy running your business. Let an accounting expert help organize your finances.</p>
           </div>
           {# <img src="/assets/small-biz-cafe-cropped.jpg" class="d-block ratio ratio-4x3" alt=""> #}
-            <img src="/assets/F0E7D6nxXMH1RYOX6YlVWg.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a woman standing in front of the door to her business holding a sign that says welcome we are open">
+            <img src="{{'/assets/F0E7D6nxXMH1RYOX6YlVWg.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a woman standing in front of the door to her business holding a sign that says welcome we are open">
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@ layout: base.njk
 
 {# Services section #}
 <div class="main__services">
-  <h2>Our Services</h2>
+  <h2 class="text-center">What We Do</h2>
     <div class="services-cards flex-wrap">
       <div class="card" >
       
@@ -65,7 +65,7 @@ layout: base.njk
           <div class="card-body">
               <h5 class="card-title text-center">Accounting</h5>
               <p class="text-center">We provide you with a clear and organized financial picture, enabling informed decision-making</p>
-              <a href="{{ '/services/#accounting-services' | url }}" class="btn btn-primary">Learn More</a>
+              <a href="{{ '/services/#accounting-services' | url }}" class="btn btn-custom">Learn More</a>
           </div>
           
       </div>
@@ -76,7 +76,7 @@ layout: base.njk
         <div class="card-body">
             <h5 class="card-title text-center">Tax Preparation</h5>
             <p class="text-center">We can help individuals and businesses navigate the intricacies of tax regulations and maximize their savings.</p>
-            <a href="{{ '/services/#other-services' | url }}" class="btn btn-primary">Learn More</a>
+            <a href="{{ '/services/#other-services' | url }}" class="btn btn-custom">Learn More</a>
         </div>
           
       </div>
@@ -87,7 +87,7 @@ layout: base.njk
           <div class="card-body">
               <h5 class="card-title text-center">Other Services</h5>
               <p class="text-center"> From a child's college education to retirement, we can help you plan for your future needs. </p>
-              <a href="{{ '/services/#tax-prep-services' | url }}" class="btn btn-primary">Learn More</a>
+              <a href="{{ '/services/#tax-prep-services' | url }}" class="btn btn-custom">Learn More</a>
           </div>
           
       </div>
@@ -101,11 +101,12 @@ layout: base.njk
       {# <h2>Welcome to the Accounteque Services, Inc. website!</h2> #}
   </div>
   
-  <div class="main__player mx-auto" >
-    <div class="column asymmetric-row grid-row center-if">
-      <div class="grid-col">
-        <div class="column">
-          <div id="pageContent" >
+  <div class="main__newsletter mx-auto" >
+    <div class="col ">
+      <div class="col">
+        <div class="col">
+          <div id="pageContent" class="text-wrapper">
+            <h2 class="text-center">How Can We Help?</h2>
             <p>Our Online Office brings financial services directly into your home or business enabling you to more actively participate in your financial management.</p> 
             {# Pexels to the rescue, maybe a side by side image of an accountant with some text #}
             <p><em>You can:</em></p>
@@ -114,10 +115,11 @@ layout: base.njk
             <p><strong>Review Tax and Financial Topics of Interest</strong> in the Additional Pages section of our site</p>
             <p>Please browse the pages of this site and feel free to e-mail any questions, suggestions or other feedback. Visit often as current news impacting your financial situation will be outlined here.<script src="//widget.resourcesforclients.com/taxvid/taxvid.js?u=bpVb58TUXLqE" type="text/javascript"></script></p>
             
-            <a href="https://signup.resourcesforclients.com/?u=bpVb58TUXLqE" target="_blank" style="padding: 10px 15px;background:#34495E;color:#ffffff;text-decoration: none;">Subscribe To Our Newsletter</a>    
+            {# <a href="https://signup.resourcesforclients.com/?u=bpVb58TUXLqE" target="_blank" style="padding: 10px 15px;background:#34495E;color:#ffffff;text-decoration: none;">Subscribe To Our Newsletter</a>     #}
+            <a href="" class="btn btn-custom">Subscribe To Our Newsletter</a>
           </div>
           <br>
-          <a href="about" class="btn btn-primary " alt="Go to About page to Learn More"> Learn More</a>
+          {# <a href="about" class="btn btn-custom " alt="Go to About page to Learn More"> Learn More</a> #}
         </div>
       </div>
     </div>
