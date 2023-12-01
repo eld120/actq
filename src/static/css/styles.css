@@ -12701,8 +12701,8 @@ header .navbar-toggler:focus {
 }
 
 .footer {
-  height: 100svh;
-  height: 100vh;
+  min-height: 100svh;
+  min-height: 100vh;
 }
 .footer__content p, .footer__content h6, .footer__content a {
   margin: 0;
@@ -12830,9 +12830,6 @@ header .navbar-toggler:focus {
     backdrop-filter: blur(3px);
     width: 100%;
     max-width: 100vw;
-  }
-  .footer {
-    padding: 2em 1.5em;
   }
   .footer__content-wrapper {
     padding: 2em 0;
