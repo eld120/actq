@@ -12700,10 +12700,6 @@ header .navbar-toggler:focus {
   background-color: #F0F0EF;
 }
 
-.footer {
-  min-height: 100svh;
-  min-height: 100vh;
-}
 .footer__content p, .footer__content h6, .footer__content a {
   margin: 0;
 }
