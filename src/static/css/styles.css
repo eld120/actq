@@ -12727,7 +12727,7 @@ header .navbar-toggler:focus {
   color: white;
 }
 .footer__contact {
-  margin: 0 auto;
+  max-width: 38em;
 }
 .footer__contact .form-wrapper {
   display: flex;
