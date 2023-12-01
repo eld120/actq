@@ -12679,9 +12679,11 @@ header .navbar-toggler:focus {
   color: #2D5A72;
 }
 .main .about-wrapper {
-  margin: 0 auto;
+  margin: 2em auto;
   width: 55em;
   max-width: 80vw;
+  height: 80svh;
+  height: 80vh;
 }
 .main .about-wrapper h2 {
   text-align: center;
