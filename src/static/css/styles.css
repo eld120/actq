@@ -12808,7 +12808,7 @@ header .navbar-toggler:focus {
     height: 60svh;
     height: 60vh;
     z-index: 1;
-    background-color: #F0F0EF;
+    background-color: rgba(0, 0, 0, 0.35);
     padding: 20vh 2em;
     text-align: center;
   }
