@@ -12,9 +12,9 @@ const paths = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('outer')
+    
     navLinks.forEach(element => {
-        console.log('running')
+        
         if (element.firstElementChild.innerHTML === paths[pathName]) {
             element.ariaCurrent = 'page'
             element.classList.add("active")
