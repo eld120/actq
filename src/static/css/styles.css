@@ -12763,6 +12763,9 @@ header .navbar-toggler:focus {
 .footer__contact .contact-contents {
   width: 254px;
 }
+.footer__contact .contact-contents #honey-pot {
+  display: none;
+}
 .footer__contact button {
   width: 70px;
 }
