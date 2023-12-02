@@ -12694,6 +12694,22 @@ header .navbar-toggler:focus {
 .main .services-content .text-wrapper .hd-style {
   color: #2D5A72;
 }
+.main .calculators h6 {
+  color: #2D5A72;
+}
+.main .calculators ul {
+  list-style-type: none;
+}
+.main .calculators ul li {
+  margin-bottom: 0.3em;
+}
+.main .calculators a {
+  color: #2D5A72;
+  text-decoration: none;
+}
+.main .calculators span {
+  color: #2D5A72;
+}
 .main .about-wrapper {
   margin: 2em auto;
   width: 55em;
