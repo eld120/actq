@@ -12655,6 +12655,13 @@ header .navbar-toggler:focus {
   width: 80vw;
   max-width: 50em;
 }
+.main__newsletter button {
+  max-width: 12.5em;
+}
+.main__newsletter #subscribe-email {
+  width: 50vw;
+  max-width: 25em;
+}
 .main .hr-70 {
   width: 70vw;
 }
