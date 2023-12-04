@@ -18,7 +18,7 @@ layout: base.njk
           <div class="text-container">
             <p class="carousel-text fs-3">Tax rules are constantly changing. Get help finding the deductions that matter to you.</p>
           </div>
-          {# <img src="/assets/open-for-business.jpg" class="d-block ratio ratio-4x3" alt=""> #}
+          
           <img src="{{'/assets/x3FvZ-Vav9j7Q1IbRCz4qQ.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a handshake in a formal business meeting">
         </div>
       </div>
@@ -27,7 +27,7 @@ layout: base.njk
           <div class="text-container">
             <p class="carousel-text fs-3">Don't plan for the future by yourself. Get tax and accounting expertise for your situation.</p>
           </div>
-          {# <img src="/assets/small-office-collaboration.jpg" class="d-block ratio ratio-4x3" alt=""> #}
+          
           <img src="{{'/assets/jiDj0c77HyKPyjtpiK5mJw.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a blank IRS 1040 form with a post it note that says need help? and a notepad that says Tax Planning">
         </div>
       </div>
@@ -36,7 +36,7 @@ layout: base.njk
           <div class="text-container">
             <p class="carousel-text fs-3">You're busy running your business. Let an accounting expert help organize your finances.</p>
           </div>
-          {# <img src="/assets/small-biz-cafe-cropped.jpg" class="d-block ratio ratio-4x3" alt=""> #}
+          
             <img src="{{'/assets/F0E7D6nxXMH1RYOX6YlVWg.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a woman standing in front of the door to her business holding a sign that says welcome we are open">
         </div>
       </div>
@@ -95,10 +95,10 @@ layout: base.njk
 </div>
 
 
-{# Video Section #}
+{# CTA Section #}
 <section id="mainSection" class="p-3">
   <div class=" text-center">
-      {# <h2>Welcome to the Accounteque Services, Inc. website!</h2> #}
+      
   </div>
   
   <div class="main__newsletter mx-auto" >
@@ -120,17 +120,16 @@ layout: base.njk
             
           </div>
           <br>
-          <form id="subscription-form" action="https://formsubmit.co/devteam@origma.io" class="form d-flex flex-wrap mb-4" method="POST">
-              {# <div class="mb-3 row"> #}
-                
-                <input type="email" class="form-control mt-1 mb-3 me-4" id="subscribe-email" name="email" placeholder="Your Email Address" required>
-                <input type="hidden" >
-                <button class="btn btn-custom px-3 "type="submit">Subscribe To Our Newsletter</button>
-              {# </div> #}
+          <form id="subscription-form" action="https://formsubmit.co/9e244935b33cbdb565b4a005073045c3" class="form d-flex flex-wrap mb-4 mx-auto" method="POST">
+              <input type="email" class="form-control mt-1 mb-3 me-4" id="subscribe-email" name="email" placeholder="Your Email Address" required>
+              <input type="hidden" value="Please add me as a new subscriber">
+              <button class="btn btn-custom px-3 mb-3"type="submit">Subscribe To Our Newsletter</button>
+              
               <input type="hidden" name="_next" value="{{ '/' | url}}">
               <input type="hidden" name="_captcha" value="true">
+              <p><small>By submitting this form you are registering to receive informative emails from Accounteque Services, Inc that will be sent to the email address entered above. At any time you can unsubscribe from these emails using the unsubscribe link included in each message, replying to any message with "unlist" in the subject line, or you can contact us directly at na@actq.com.</small></p>
             </form>
-          {# <a href="about" class="btn btn-custom " alt="Go to About page to Learn More"> Learn More</a> #}
+          
         </div>
       </div>
     </div>
@@ -139,48 +138,3 @@ layout: base.njk
 
 
 
-{# CTA sections combined #}
-{# 
-<div class="main__cta p-3"> #}
-
-  {# contact CTA #}
-  {# <div class="contact-cta d-flex flex-column">
-    <h2 class="text-center">Get the tax and accounting expertise you need.</h2>
-    <button class="mx-auto">Contact Us Today</button>
-  </div> #}
-
-  {# Links CTA #}
-  {# <div class="links-cta justify-content-center">
-    <div class="card text-center">
-      <svg viewBox="0 0 100 100" class="card-img-top mx-auto object-fit-contain">
-          <path class="cls-2" d="M50,51.11a17,17,0,1,0-17-17A17.07,17.07,0,0,0,50,51.11Zm0-2.27a14.69,14.69,0,0,1-9.5-3.48l.51,0a9.79,9.79,0,0,0,3.89-.71,7.59,7.59,0,0,0,5,1.64l.67,0a5.77,5.77,0,0,0,3.88-1.57,8.27,8.27,0,0,0,3.71.71,8.85,8.85,0,0,1,1.19.09A14.67,14.67,0,0,1,50,48.84ZM43.42,30.79c.44-3.34,2.31-6.43,6.52-6.43a6.54,6.54,0,0,1,3.1.71C52.87,25.68,51.24,30.71,43.42,30.79Zm10.34-5.25c1.86,1.39,2.68,3.83,2.8,6.26C55.43,31.31,53,30,53,27.39a.46.46,0,0,0,0-.21A7.75,7.75,0,0,0,53.76,25.54ZM52.2,28.13c.44,2.87,3.38,4.21,4.36,4.58-.17,4.46-4.06,7.78-6.62,7.78S43.31,37,43.31,32.42q0-.39,0-.78C48.07,31.61,50.73,29.82,52.2,28.13Zm-2.26,13.2a5.55,5.55,0,0,0,2.31-.58,4.43,4.43,0,0,0,1.48,3.45,5.06,5.06,0,0,1-3.21,1.21,7.5,7.5,0,0,1-4.83-1.21,4.28,4.28,0,0,0,2.11-3.38A5.35,5.35,0,0,0,49.94,41.33Zm.06-22A14.76,14.76,0,0,1,60.15,44.77a8.09,8.09,0,0,0-2-.23c-3.62,0-5.09-1.19-5.09-4.13a.45.45,0,0,0,0-.11,9.7,9.7,0,0,0,4.37-7.88c0-5.41-2.94-8.9-7.48-8.9s-7.47,3.49-7.47,8.9a9.66,9.66,0,0,0,4.53,8h0c0,3.8-4.59,4.09-6,4.09a9.4,9.4,0,0,0-1.35.1A14.77,14.77,0,0,1,50,19.29Z"/><path class="cls-2" d="M85.23,0H14.77a1.14,1.14,0,0,0-1.13,1.14V98.86A1.14,1.14,0,0,0,14.77,100H85.23a1.14,1.14,0,0,0,1.13-1.14V1.14A1.14,1.14,0,0,0,85.23,0ZM84.09,97.73H15.91V2.27H84.09Z"/><rect class="cls-2" x="31.82" y="57.95" width="36.36" height="2.27"/><rect class="cls-2" x="36.36" y="63.07" width="27.27" height="1.14"/><rect class="cls-2" x="27.27" y="72.16" width="45.45" height="1.14"/><rect class="cls-2" x="27.27" y="76.7" width="45.45" height="1.14"/><rect class="cls-2" x="27.27" y="81.25" width="45.45" height="1.14"/>
-        </svg>
-      <div class="card-body">
-        
-        <h5 class="card-title">About Us</h5>
-        <h6 class="card-subtitle mb-2 ">Learn A Little Bit About Us</h6>
-      </div>
-    </div>
-    <div class="card text-center" >
-      <svg viewBox="0 0 100 100" class="card-img-top mx-auto object-fit-contain">
-        <g transform="translate(-7.15 -11.47)"><path d="m89 21.26a1.76 1.76 0 0 0 -.1-.26h-.07l-.12-.13-10.88-9.11a1.56 1.56 0 0 0 -.35-.2 1.66 1.66 0 0 0 -.46-.09h-55.94a1.31 1.31 0 0 0 -1.3 1.31v16.74h-11.33a1.3 1.3 0 0 0 -1.3 1.3v52.1a7.63 7.63 0 0 0 7.62 7.62 7.4 7.4 0 0 0 3-.64h.2 69.88a1.3 1.3 0 0 0 1.3-1.3v-66.8a1.41 1.41 0 0 0 0-.28 1.81 1.81 0 0 0 -.15-.26zm-69.22 61.66a5 5 0 0 1 -2.67 4.43l-.08.1h-.12a4.92 4.92 0 0 1 -2.14.48 5 5 0 0 1 -5-5v-50.81h2.8v47.42a1.31 1.31 0 0 0 1.31 1.3 1.3 1.3 0 0 0 1.3-1.3v-47.42h4.61zm58.54-67.36 5.92 4.93h-5.92zm8.22 71.69h-65.44l.39-.73a1 1 0 0 0 .07-.15l.07-.16a3 3 0 0 0 .17-.36c.08-.19.14-.38.2-.57v-.12a2.25 2.25 0 0 0 .08-.24c.06-.22.1-.45.14-.67v-.15-.16a7.39 7.39 0 0 0 .07-1v-68.86h53.42v7.72a1.31 1.31 0 0 0 1.29 1.3h9.52z"/><path d="m28.3 21.3h21.7a1.31 1.31 0 1 0 0-2.61h-21.7a1.31 1.31 0 0 0 0 2.61z"/><path d="m28.3 26.71h30.7a1.3 1.3 0 0 0 1.3-1.3 1.31 1.31 0 0 0 -1.3-1.31h-30.7a1.31 1.31 0 0 0 0 2.61z"/><path d="m27 30.82a1.3 1.3 0 0 0 1.3 1.3h48.7a1.3 1.3 0 0 0 0-2.6h-48.7a1.3 1.3 0 0 0 -1.3 1.3z"/><path d="m28.3 77.23h8.92a1.31 1.31 0 0 0 0-2.61h-8.92a1.31 1.31 0 0 0 0 2.61z"/><path d="m40.93 80h-12.63a1.31 1.31 0 0 0 0 2.61h12.63a1.31 1.31 0 1 0 0-2.61z"/><path d="m48.15 77.23h22.93a1.29 1.29 0 0 0 .92-.38 1.31 1.31 0 0 0 -.92-2.23h-22.93a1.31 1.31 0 0 0 0 2.61z"/><path d="m80.63 80h-32.48a1.31 1.31 0 0 0 0 2.61h32.48a1.31 1.31 0 0 0 0-2.61z"/><path d="m27 38v14.47a1.31 1.31 0 0 0 1.3 1.31h52.33a1.31 1.31 0 0 0 1.3-1.31v-14.47a1.31 1.31 0 0 0 -1.3-1.31h-52.33a1.31 1.31 0 0 0 -1.3 1.31zm2.61 1.3h49.71v11.87h-49.71z"/><path d="m40.93 58.38h-12.63a1.31 1.31 0 0 0 -1.3 1.31v9a1.3 1.3 0 0 0 1.3 1.31h12.63a1.31 1.31 0 0 0 1.31-1.3v-9a1.31 1.31 0 0 0 -1.31-1.32zm-1.3 9h-10v-6.38h10z"/><path d="m48.15 70h12.63a1.3 1.3 0 0 0 1.3-1.3v-9a1.31 1.31 0 0 0 -1.3-1.31h-12.63a1.31 1.31 0 0 0 -1.3 1.31v9a1.3 1.3 0 0 0 1.3 1.3zm1.3-9h10v6.42h-10z"/><path d="m80.63 58.38h-12.63a1.31 1.31 0 0 0 -1.31 1.31v9a1.31 1.31 0 0 0 1.31 1.31h12.63a1.3 1.3 0 0 0 1.3-1.3v-9a1.31 1.31 0 0 0 -1.3-1.32zm-1.31 9h-10v-6.38h10z"/></g><path d="m26.07 31.48h4.61v4.61h-4.61z"/><path d="m31.48 31.48h4.61v4.61h-4.61z"/><path d="m36.89 31.48h4.61v4.61h-4.61z"/><path d="m42.3 31.48h4.61v4.61h-4.61z"/></g>
-      </svg>
-      <div class="card-body">
-        
-        <h5 class="card-title">Stay Updated</h5>
-        <h6 class="card-subtitle mb-2 ">Monthly newsletters to keep you updated on current Tax laws</h6>
-      </div>
-    </div>
-    <div class="card text-center" >
-      <svg viewBox="0 0 100 100" class="card-img-top mx-auto object-fit-contain">
-          <path class="cls-1" d="M90.62,42.19a7.83,7.83,0,0,0,7.82-7.81v-25a7.83,7.83,0,0,0-7.82-7.82H59.38a7.83,7.83,0,0,0-7.82,7.82v25a7.83,7.83,0,0,0,7.82,7.81H70.31V67.27a4.68,4.68,0,0,1-.47,2.06l-1.32-6.55a10.08,10.08,0,0,0-9.87-8.09,4,4,0,0,0-4,4,4,4,0,0,0,.66,2.2L57,63.26a6.83,6.83,0,0,1,1.11,3l1.11,8.86a7.89,7.89,0,0,0,1.5,3.72l3.38,4.5v2.61H60.94v12.5h37.5V85.94H95.31V83.18l2.3-4.6a7.86,7.86,0,0,0,.83-3.49V56.25a4.7,4.7,0,0,0-4.69-4.69,4.58,4.58,0,0,0-1.74.35,4.68,4.68,0,0,0-4.51-3.47,4.57,4.57,0,0,0-1.74.34,4.69,4.69,0,0,0-4.51-3.47,4.74,4.74,0,0,0-1.56.29V42.19ZM59.38,39.06a4.69,4.69,0,0,1-4.69-4.68v-25a4.69,4.69,0,0,1,4.69-4.69H90.62a4.69,4.69,0,0,1,4.69,4.69v25a4.69,4.69,0,0,1-4.69,4.68H79.69V35.8a6.13,6.13,0,0,0,1.13.14,6.42,6.42,0,0,0,4.51-1.87L87.5,31.9a5.35,5.35,0,0,0,0-7.55L84.75,21.6a4.38,4.38,0,0,0-3.11-1.29h-.21a4.36,4.36,0,0,0-3.92,2.43,1.27,1.27,0,0,1-1.13.7h-.21a1.24,1.24,0,0,1-.89-.37L73.81,21.6a1.26,1.26,0,0,1-.37-.9v-.2a1.23,1.23,0,0,1,.7-1.13,4.38,4.38,0,0,0,2.42-3.93v-.21a4.35,4.35,0,0,0-1.28-3.1L72.52,9.38a5.45,5.45,0,0,0-7.54,0L62.8,11.55a6.53,6.53,0,0,0-1.86,4.65,6.36,6.36,0,0,0,.51,2.51,31.19,31.19,0,0,0,10,12.69,4.61,4.61,0,0,0-1.1,3v4.68Zm15.1-9.32A28.19,28.19,0,0,1,64.32,17.48a3.55,3.55,0,0,1-.26-1.43,3.27,3.27,0,0,1,1-2.29l2.18-2.18a2.29,2.29,0,0,1,3.12,0l2.76,2.76a1.26,1.26,0,0,1,.37.89v.21a1.26,1.26,0,0,1-.7,1.13,4.37,4.37,0,0,0-2.43,3.93v.2a4.36,4.36,0,0,0,1.29,3.11l1.47,1.47a4.35,4.35,0,0,0,3.1,1.28h.21a4.37,4.37,0,0,0,3.92-2.42,1.25,1.25,0,0,1,1.13-.7h.21a1.22,1.22,0,0,1,.89.37l2.76,2.75a2.21,2.21,0,0,1,0,3.13l-2.17,2.17a3.32,3.32,0,0,1-3.75.61l-.13-.07A4.68,4.68,0,0,0,75,29.69,4.36,4.36,0,0,0,74.48,29.74ZM95.31,95.31H64.06V89.06H95.31ZM81.25,48.44A1.56,1.56,0,0,1,82.81,50V62.5h3.13V53.12a1.56,1.56,0,0,1,3.12,0V62.5h3.13V56.25a1.56,1.56,0,0,1,3.12,0V75.09a4.72,4.72,0,0,1-.49,2.09l-2.63,5.26v3.5h-25V82.29l-4-5.34a4.75,4.75,0,0,1-.9-2.23l-1.1-8.86a10.32,10.32,0,0,0-1.62-4.34L58,59.11a.83.83,0,0,1-.14-.46.85.85,0,0,1,.84-.84,7,7,0,0,1,6.81,5.59l2,10h3.81l1.33-2.67a7.87,7.87,0,0,0,.83-3.5V34.38a1.56,1.56,0,1,1,3.12,0V62.5h3.13V50A1.56,1.56,0,0,1,81.25,48.44Z" transform="translate(-1.56 -1.56)"/><path class="cls-1" d="M40.62,51.56H9.38a7.83,7.83,0,0,0-7.82,7.82v25a7.83,7.83,0,0,0,7.82,7.81H40.62a7.83,7.83,0,0,0,7.82-7.81v-25A7.83,7.83,0,0,0,40.62,51.56Zm4.69,32.82a4.69,4.69,0,0,1-4.69,4.68H9.38a4.69,4.69,0,0,1-4.69-4.68v-25a4.69,4.69,0,0,1,4.69-4.69H40.62a4.69,4.69,0,0,1,4.69,4.69Z" transform="translate(-1.56 -1.56)"/><path class="cls-1" d="M40.62,1.56H9.38A7.83,7.83,0,0,0,1.56,9.38v25a7.83,7.83,0,0,0,7.82,7.81H40.62a7.83,7.83,0,0,0,7.82-7.81v-25A7.83,7.83,0,0,0,40.62,1.56Zm4.69,32.82a4.69,4.69,0,0,1-4.69,4.68H9.38a4.69,4.69,0,0,1-4.69-4.68v-25A4.69,4.69,0,0,1,9.38,4.69H40.62a4.69,4.69,0,0,1,4.69,4.69Z" transform="translate(-1.56 -1.56)"/><path class="cls-1" d="M25,7.81a12.52,12.52,0,0,0-12.5,12.5v3.13A12.52,12.52,0,0,0,25,35.94V32.81a9.38,9.38,0,0,1-9.38-9.37V20.31a9.38,9.38,0,0,1,18.76,0v7.81a1.57,1.57,0,1,1-3.13,0V20.31a6.25,6.25,0,0,0-12.5,0v3.13a6.2,6.2,0,0,0,9.44,5.34,4.68,4.68,0,0,0,9.31-.66V20.31A12.52,12.52,0,0,0,25,7.81Zm0,18.75a3.12,3.12,0,0,1-3.12-3.12V20.31a3.12,3.12,0,0,1,6.24,0v3.13A3.12,3.12,0,0,1,25,26.56Z" transform="translate(-1.56 -1.56)"/><path class="cls-1" d="M7.81,82.81H42.19V60.94H7.81Zm12-7.89a9.1,9.1,0,0,0,10.42,0l6,4.77H13.83Zm12.76-2.13,6.51-6.52V78Zm-3.32-1.1a6.15,6.15,0,0,1-8.46,0l-7.62-7.63h23.7Zm-11.78,1.1L10.94,78V66.27Z" transform="translate(-1.56 -1.56)"/>
-        </svg>
-      <div class="card-body">
-        
-        <h5 class="card-title">Contact Us</h5>
-        <h6 class="card-subtitle mb-2">Start Saving More Money Today</h6>
-      </div>
-    </div>
-  </div> #}
-{# </div>  #}
- 
