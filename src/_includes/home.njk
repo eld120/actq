@@ -122,7 +122,7 @@ layout: base.njk
           <br>
           <form id="subscription-form" action="https://formsubmit.co/9e244935b33cbdb565b4a005073045c3" class="form d-flex flex-wrap mb-4 mx-auto" method="POST">
               <input type="email" class="form-control mt-1 mb-3 me-4" id="subscribe-email" name="email" placeholder="Your Email Address" required>
-              <input type="hidden" value="Please add me as a new subscriber">
+              <input type="hidden" name="_subject" value="Please add the following new subscriber">
               <button class="btn btn-custom px-3 mb-3"type="submit">Subscribe To Our Newsletter</button>
               
               {# email provider doesn't know what to do with the relative path #}
