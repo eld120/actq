@@ -105,7 +105,7 @@ layout: base.njk
     <div class="col ">
       <div class="col">
         <div class="col">
-          <div id="pageContent" class="text-wrapper mx-auto">
+          <div id="pageContent" class="text-wrapper mx-auto mb-3">
             <h2 class="text-center">How Can We Help?</h2>
             <hr>
             <p>Our Online Office brings financial services directly into your home or business enabling you to more actively participate in your financial management.</p> 
@@ -114,12 +114,22 @@ layout: base.njk
             <p><strong>Use the Financial Calculators</strong> to assist you in budgeting, financial planning, or determining loan payments.</p>
             <p><strong>Stay Alert</strong> to tax and accounting news by reviewing the client newsletter.</p>
             <p><strong>Review Tax and Financial Topics of Interest</strong> in the Additional Pages section of our site</p>
-            <p>Please browse the pages of this site and feel free to e-mail any questions, suggestions or other feedback. Visit often as current news impacting your financial situation will be outlined here.<script src="//widget.resourcesforclients.com/taxvid/taxvid.js?u=bpVb58TUXLqE" type="text/javascript"></script></p>
+            <p>Please browse the pages of this site and feel free to e-mail any questions, suggestions or other feedback. Visit often as current news impacting your financial situation will be outlined here.</p>
             
-            {# <a href="https://signup.resourcesforclients.com/?u=bpVb58TUXLqE" target="_blank" style="padding: 10px 15px;background:#34495E;color:#ffffff;text-decoration: none;">Subscribe To Our Newsletter</a>     #}
-            <a href="" class="btn btn-custom">Subscribe To Our Newsletter</a>
+            
+            
           </div>
           <br>
+          <form id="subscription-form" action="https://formsubmit.co/devteam@origma.io" class="form d-flex flex-wrap mb-4" method="POST">
+              {# <div class="mb-3 row"> #}
+                
+                <input type="email" class="form-control mt-1 mb-3 me-4" id="subscribe-email" name="email" placeholder="Your Email Address" required>
+                <input type="hidden" >
+                <button class="btn btn-custom px-3 "type="submit">Subscribe To Our Newsletter</button>
+              {# </div> #}
+              <input type="hidden" name="_next" value="{{ '/' | url}}">
+              <input type="hidden" name="_captcha" value="true">
+            </form>
           {# <a href="about" class="btn btn-custom " alt="Go to About page to Learn More"> Learn More</a> #}
         </div>
       </div>
