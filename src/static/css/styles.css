@@ -12853,11 +12853,23 @@ header .navbar-toggler:focus {
   .main .services-content .img {
     display: none;
   }
-  .main .services-content .serv {
+  .main .services-content #accounting-services {
     display: block;
     background-image: url("../../assets/savings-jar.jpg");
     background-repeat: no-repeat;
     background-position: left;
+  }
+  .main .services-content #other-services {
+    display: block;
+    background-image: url("../../assets/d3xMe7T4aO5XIR2Pj-VTCA.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main .services-content #tax-prep-services {
+    display: block;
+    background-image: url("../../assets/savings-jar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .main .services-content .text-wrapper {
     padding: 2em 2.5em;
