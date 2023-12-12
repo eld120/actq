@@ -12858,23 +12858,26 @@ header .navbar-toggler:focus {
     background-image: url("../../assets/savings-jar.jpg");
     background-repeat: no-repeat;
     background-position: left;
+    background-size: cover;
   }
   .main .services-content #other-services {
+    display: block;
+    background-image: url("../../assets/Q-m3XEiEYBjIc3q9ZTUP5g.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main .services-content #tax-prep-services {
     display: block;
     background-image: url("../../assets/d3xMe7T4aO5XIR2Pj-VTCA.jpg");
     background-repeat: no-repeat;
     background-position: center;
-  }
-  .main .services-content #tax-prep-services {
-    display: block;
-    background-image: url("../../assets/savings-jar.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
   }
   .main .services-content .text-wrapper {
     padding: 2em 2.5em;
-    background-color: rgba(240, 240, 239, 0.664);
-    backdrop-filter: blur(3px);
+    background-color: rgba(240, 240, 239, 0.77);
+    backdrop-filter: blur(5px);
     width: 100%;
     max-width: 100vw;
   }
