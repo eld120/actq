@@ -68,6 +68,7 @@ header
         padding: 3em 3em
         min-height: 80svh
         min-height: 80vh
+        color: #ecf8ff
 
         .carousel-page
             display: flex
@@ -84,6 +85,10 @@ header
             .text-container
                 height: 60svh
                 height: 60vh
+                background: #789db15e
+                border-radius: 3px
+                width: 35vh
+                padding: 14px
 
             img
                 max-width: 40em
@@ -102,16 +107,18 @@ header
             padding: 1.5em 1.5em
             // border-radius: .25em 0 0 .25em
         .carousel-control-next,
+
         .carousel-control-prev
             // justify-content: flex-end
-
+            padding: 1em
             display: flex
             align-items: flex-end
             z-index: 3
             width: 10%
-            padding-bottom: .5em
+
         .carousel-indicators
             margin-bottom: 0.3em
+            padding: 1em
 
     &__services
         display: block
@@ -127,8 +134,8 @@ header
             gap: 2em
             margin: 0 auto
             justify-content: center
-.hero-nav
-    align-items: center
+    .hero-nav
+        align-items: center
     &__newsletter
         min-height: 85vh
         width: 75vw
