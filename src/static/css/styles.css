@@ -12099,6 +12099,10 @@ textarea.form-control-lg {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .btn-custom {
   border-color: #2D5A72;
   background-color: #2D5A72;
@@ -12173,6 +12177,7 @@ header .navbar-toggler:focus {
   padding: 3em 3em;
   min-height: 80svh;
   min-height: 80vh;
+  color: #ecf8ff;
 }
 .main__hero-section .carousel-page {
   display: flex;
@@ -12184,6 +12189,10 @@ header .navbar-toggler:focus {
 .main__hero-section .carousel-page .text-container {
   height: 60svh;
   height: 60vh;
+  background: rgba(120, 157, 177, 0.368627451);
+  border-radius: 3px;
+  width: 35vh;
+  padding: 14px;
 }
 .main__hero-section .carousel-page img {
   max-width: 40em;
@@ -12202,14 +12211,15 @@ header .navbar-toggler:focus {
 }
 .main__hero-section .carousel-control-next,
 .main__hero-section .carousel-control-prev {
+  padding: 1em;
   display: flex;
   align-items: flex-end;
   z-index: 3;
   width: 10%;
-  padding-bottom: 0.5em;
 }
 .main__hero-section .carousel-indicators {
   margin-bottom: 0.3em;
+  padding: 1em;
 }
 .main__services {
   display: block;
@@ -12228,53 +12238,52 @@ header .navbar-toggler:focus {
   margin: 0 auto;
   justify-content: center;
 }
-
-.hero-nav {
+.main .hero-nav {
   align-items: center;
 }
-.hero-nav__newsletter {
+.main__newsletter {
   min-height: 85vh;
   width: 75vw;
   padding-top: 3em;
 }
-.hero-nav__newsletter .text-wrapper {
+.main__newsletter .text-wrapper {
   width: 80vw;
   max-width: 50em;
 }
-.hero-nav__newsletter button {
+.main__newsletter button {
   max-width: 12.5em;
 }
-.hero-nav__newsletter #subscription-form {
+.main__newsletter #subscription-form {
   width: 80vw;
   max-width: 50em;
 }
-.hero-nav__newsletter #subscribe-email {
+.main__newsletter #subscribe-email {
   width: 50vw;
   max-width: 25em;
 }
-.hero-nav .hr-70 {
+.main .hr-70 {
   width: 70vw;
 }
-.hero-nav__cta {
+.main__cta {
   display: flex;
   flex-direction: column;
   gap: 3em;
 }
-.hero-nav__cta .links-cta {
+.main__cta .links-cta {
   display: flex;
   gap: 2em;
   flex-wrap: wrap;
 }
-.hero-nav .services-content {
+.main .services-content {
   position: relative;
   padding: 1.5em 3em;
   background-color: #F0F0EF;
 }
-.hero-nav .services-content .serv {
+.main .services-content .serv {
   display: flex;
   justify-content: space-between;
 }
-.hero-nav .services-content .img {
+.main .services-content .img {
   object-fit: cover;
   object-position: left;
   opacity: 75%;
@@ -12284,37 +12293,37 @@ header .navbar-toggler:focus {
   top: 0;
   bottom: 0;
 }
-.hero-nav .services-content .text-wrapper {
+.main .services-content .text-wrapper {
   width: 45vw;
   max-width: 40em;
 }
-.hero-nav .services-content .text-wrapper .hd-style {
+.main .services-content .text-wrapper .hd-style {
   color: #2D5A72;
 }
-.hero-nav .calculators h6 {
+.main .calculators h6 {
   color: #2D5A72;
 }
-.hero-nav .calculators ul {
+.main .calculators ul {
   list-style-type: none;
 }
-.hero-nav .calculators ul li {
+.main .calculators ul li {
   margin-bottom: 0.3em;
 }
-.hero-nav .calculators a {
+.main .calculators a {
   color: #2D5A72;
   text-decoration: none;
 }
-.hero-nav .calculators span {
+.main .calculators span {
   color: #2D5A72;
 }
-.hero-nav .about-wrapper {
+.main .about-wrapper {
   margin: 2em auto;
   width: 55em;
   max-width: 80vw;
   height: 80svh;
   height: 80vh;
 }
-.hero-nav .about-wrapper h2 {
+.main .about-wrapper h2 {
   text-align: center;
 }
 
