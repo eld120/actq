@@ -12596,6 +12596,7 @@ header .navbar-toggler:focus {
   padding: 3em 3em;
   min-height: 80svh;
   min-height: 80vh;
+  color: #ecf8ff;
 }
 .main__hero-section .carousel-page {
   display: flex;
@@ -12607,6 +12608,10 @@ header .navbar-toggler:focus {
 .main__hero-section .carousel-page .text-container {
   height: 60svh;
   height: 60vh;
+  background: rgba(120, 157, 177, 0.368627451);
+  border-radius: 3px;
+  width: 35vh;
+  padding: 14px;
 }
 .main__hero-section .carousel-page img {
   max-width: 40em;
@@ -12625,14 +12630,15 @@ header .navbar-toggler:focus {
 }
 .main__hero-section .carousel-control-next,
 .main__hero-section .carousel-control-prev {
+  padding: 1em;
   display: flex;
   align-items: flex-end;
   z-index: 3;
   width: 10%;
-  padding-bottom: 0.5em;
 }
 .main__hero-section .carousel-indicators {
   margin-bottom: 0.3em;
+  padding: 1em;
 }
 .main__services {
   display: block;
