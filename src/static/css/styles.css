@@ -12608,10 +12608,12 @@ header .navbar-toggler:focus {
 .main__hero-section .carousel-page .text-container {
   height: 60svh;
   height: 60vh;
-  background: rgba(120, 157, 177, 0.368627451);
   border-radius: 3px;
   width: 35vh;
   padding: 14px;
+}
+.main__hero-section .carousel-page .text-container h4 {
+  font-weight: 200;
 }
 .main__hero-section .carousel-page img {
   max-width: 40em;

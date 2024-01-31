@@ -98,10 +98,13 @@ header{
             .text-container{
                 height: 60svh;
                 height: 60vh;
-                background: #789db15e;
+                // background: #789db15e;
                 border-radius: 3px;
                 width: 35vh;
                 padding: 14px;
+                h4{
+                    font-weight: 200;
+                }
             }
             img{
                 max-width: 40em;
