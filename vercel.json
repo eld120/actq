@@ -1,0 +1,11 @@
+{
+    "git": {
+      "deploymentEnabled": {
+        "main": true,
+        "seya/homepage": false,
+        "seya/redesign": false,
+        "staging" : true
+
+      }
+    }
+  }

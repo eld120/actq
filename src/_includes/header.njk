@@ -1,41 +1,25 @@
 <header>
 
-    <nav class="navbar navbar-expand-md bg-body-light px-5" role="navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="h-75 w-75" src="/assets/actq_logo.png" alt="Accounteque Services, Inc Experienced Accountants">
-            </a>
+    <nav class="navbar navbar-expand-lg bg-body-light flex-nowrap" role="navigation">
+        <div class="container-fluid justify-space-between p-0" >
+            <a class="navbar-brand" href="/">
+                <img class="actq-logo" id="nav-img-lg" src="/assets/actq_logo.png" alt="Accounteque Services, Inc Experienced Accountants">
+            </a>  
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarSupportedContent">
+                <div class="off-wrapper offcanvas-body">
+                    <ul class="navbar-nav mb-2 mb-md-0 gap-2 px-2" >
+                        <li class="nav-item" ><a class="nav-link fs-6 active fw-semibold" aria-current="page" href="{{ '/' | url}}"><span>Home</span></a></li>
+                        <li class="nav-item "><a class="nav-link fs-6 fw-semibold" href="{{ '/services/' | url }}"><span>Services</span></a></li>
+                        <li class="nav-item"><a class="nav-link fs-6 text-nowrap fw-semibold" href="{{ '/calculators/' | url }}"><span>Financial Calculators</span></a></li>
+                        <li class="nav-item"><a class="nav-link fs-6 text-nowrap fw-semibold" href="{{ '/about/' | url }}"><span>About Us</span></a></li>
+                        {# <li class="nav-item"><a class="nav-link fs-6 text-nowrap fw-semibold" href=""><span>Contact Us</span></a></li> #}
+                    </ul>
+                </div>
+            </div>
         </div>
-        <ul class="navbar-nav me-auto mb-2 mb-md-0 gap-2 px-2" >
-            <li class="nav-item"><a class="nav-link fs-6" href="">Home</a></li>
-            <li class="nav-item dropdown"><a class="nav-link fs-6 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="">Services</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="">Bookkeeping</a></li>
-                    <li><a class="dropdown-item" href="">Financial Planning</a></li>
-                    <li><a class="dropdown-item" href="">Financial Statements</a></li>
-                    <li><a class="dropdown-item" href="">Individuals</a></li>
-                    <li><a class="dropdown-item" href="">Payroll Services</a></li>
-                    <li><a class="dropdown-item" href="">Business Tax Returns</a></li>
-                    <li><a class="dropdown-item" href="">Tax Planning</a></li>
-                    <li><a class="dropdown-item" href="">Business Valuations</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown"><a class="nav-link fs-6 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="">More</a>
-                <ul class="dropdown-menu"> 
-                    <li><a class="dropdown-item" href="">Links</a></li>
-                    <li><a class="dropdown-item" href="">Financial Calculators</a></li>
-                    {# <li><a href="">Additional Pages</a></li> scratch this page it's not valuable/redundant #}
-                    <li><a class="dropdown-item" href="">Make a Payment</a></li>
-                    <li><a class="dropdown-item" href="">Client Newsletter</a></li>
-                    <li><a class="dropdown-item" href="">Tax Tips</a></li>
-                    <li><a class="dropdown-item" href="">Tax Videos</a></li>
-                    <li><a class="dropdown-item" href="">Client Resources</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link fs-6 text-nowrap" href="">About us</a></li>
-            <li class="nav-item"><a class="nav-link fs-6 text-nowrap" href="">Contact Us</a></li>
-            
-        </ul>
     </nav>
 
 </header>

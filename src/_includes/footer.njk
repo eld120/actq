@@ -1,19 +1,25 @@
 <footer class="footer">
-    <div class="footer__content">
-        <h2>ACCOUNTEQUE SERVICES, INC</h2>
-        <h6>Certified CPAs</h6>
-        <p>2460 Dundee Ste 185, Northbrook, IL 60065-0185</p>
-        <p>Phone: 847-768-9100</p>
-        <p>Fax: 847-890-6523</p>
-        <a class="text" href="mailto:na@actq.com">Email Us</a>
+    <div class="footer__content-wrapper flex-wrap justify-content-evenly ">
+        <div class="footer__content text-center">
+        
+            <h3>ACCOUNTEQUE SERVICES, INC</h3>
+            <p>Northbrook IL 60062</p>
+            <p>Phone: 847-768-9100</p>
+            <p>Fax: 847-890-6523</p>
+            <a class="text" href="mailto:help@actq.com">Email Us</a>
+                
+            
+               
+        </div>
+         {% include "contact_form.njk" %}
     </div>
     <div class="footer__foot">
         <h6>Please call us today at 847-768-9100, and we'll show how we'll save you more money!</h6>
          <hr>
         <div class="footer__copy-terms">
-            <p class="fs-7">Copyright Accounteque Services, Inc © 2023.</p>
-            <p class="fs-7">By using this site you agree to the Terms of Service.</p>
+            <p class="fs-7">Copyright Accounteque Services, Inc © 2024.</p>
+            <p class="fs-7">By using this site you agree to the <a href="" data-bs-toggle="modal" data-bs-target="#terms-of-service-modal">Terms of Service.</a></p>
         </div>
     </div>
-   
+   {% include "terms-of-service.njk" %}
 </footer>
