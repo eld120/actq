@@ -1,9 +1,45 @@
----
-layout: base.njk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounteque Services Inc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="icon" href="/assets/favicon.ico" sizes="32x32">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header>
 
----
+    <nav class="navbar navbar-expand-lg bg-body-light flex-nowrap" role="navigation">
+        <div class="container-fluid justify-space-between p-0" >
+            <a class="navbar-brand" href="/">
+                <img class="actq-logo" id="nav-img-lg" src="/assets/actq_logo.png" alt="Accounteque Services, Inc Experienced Accountants">
+            </a>  
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarSupportedContent">
+                <div class="off-wrapper offcanvas-body">
+                    <ul class="navbar-nav mb-2 mb-md-0 gap-2 px-2" >
+                        <li class="nav-item" ><a class="nav-link fs-6 active fw-semibold" aria-current="page" href="/"><span>Home</span></a></li>
+                        <li class="nav-item "><a class="nav-link fs-6 fw-semibold" href="/services/"><span>Services</span></a></li>
+                        <li class="nav-item"><a class="nav-link fs-6 text-nowrap fw-semibold" href="/calculators/"><span>Financial Calculators</span></a></li>
+                        <li class="nav-item"><a class="nav-link fs-6 text-nowrap fw-semibold" href="/about/"><span>About Us</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-{# Hero section  #}
+</header>
+
+    <main class="main">
+
 
 <div class="main__hero-section">
   <div id="carousel-autoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-theme="light">
@@ -18,7 +54,7 @@ layout: base.njk
             </div>
           </div>
           
-          <img src="{{'/assets/x3FvZ-Vav9j7Q1IbRCz4qQ.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a handshake in a formal business meeting">
+          <img src="/assets/x3FvZ-Vav9j7Q1IbRCz4qQ.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a handshake in a formal business meeting">
         </div>
       </div>
       <div class="carousel-item">
@@ -31,7 +67,7 @@ layout: base.njk
            
           </div>
           
-          <img src="{{'/assets/jiDj0c77HyKPyjtpiK5mJw.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a blank IRS 1040 form with a post it note that says need help? and a notepad that says Tax Planning">
+          <img src="/assets/jiDj0c77HyKPyjtpiK5mJw.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a blank IRS 1040 form with a post it note that says need help? and a notepad that says Tax Planning">
         </div>
       </div>
       <div class="carousel-item">
@@ -44,7 +80,7 @@ layout: base.njk
             
           </div>
           
-            <img src="{{'/assets/F0E7D6nxXMH1RYOX6YlVWg.jpg' | url}}" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a woman standing in front of the door to her business holding a sign that says welcome we are open">
+            <img src="/assets/F0E7D6nxXMH1RYOX6YlVWg.jpg" class="d-block ratio ratio-4x3 img-fluid" alt="Photo of a woman standing in front of the door to her business holding a sign that says welcome we are open">
         </div>
       </div>
     </div>
@@ -69,7 +105,7 @@ layout: base.njk
 </div>
 
 
-{# Services section #}
+
 <div class="main__services">
   <h2 class="text-center">What We Do</h2>
     <div class="services-cards flex-wrap">
@@ -81,7 +117,7 @@ layout: base.njk
           <div class="card-body">
               <h5 class="card-title text-center">Accounting</h5>
               <p class="text-center">We provide you with a clear and organized financial picture, enabling informed decision-making</p>
-              <a href="{{ '/services/#accounting-services' | url }}" class="btn btn-custom">Learn More</a>
+              <a href="/services/#accounting-services" class="btn btn-custom">Learn More</a>
           </div>
           
       </div>
@@ -92,7 +128,7 @@ layout: base.njk
         <div class="card-body">
             <h5 class="card-title text-center">Tax Preparation</h5>
             <p class="text-center">We can help individuals and businesses navigate the intricacies of tax regulations and maximize their savings.</p>
-            <a href="{{ '/services/#other-services' | url }}" class="btn btn-custom">Learn More</a>
+            <a href="/services/#other-services" class="btn btn-custom">Learn More</a>
         </div>
           
       </div>
@@ -103,7 +139,7 @@ layout: base.njk
           <div class="card-body">
               <h5 class="card-title text-center">Other Services</h5>
               <p class="text-center"> From a child's college education to retirement, we can help you plan for your future needs. </p>
-              <a href="{{ '/services/#tax-prep-services' | url }}" class="btn btn-custom">Learn More</a>
+              <a href="/services/#tax-prep-services" class="btn btn-custom">Learn More</a>
           </div>
           
       </div>
@@ -111,7 +147,7 @@ layout: base.njk
 </div>
 
 
-{# CTA Section #}
+
 <section id="mainSection" class="p-3">
   <div class=" text-center">
       
@@ -125,7 +161,7 @@ layout: base.njk
             <h2 class="text-center">How Can We Help?</h2>
             <hr>
             <p>Our Online Office brings financial services directly into your home or business enabling you to more actively participate in your financial management.</p> 
-            {# Pexels to the rescue, maybe a side by side image of an accountant with some text #}
+            
             <p><em>You can:</em></p>
             <p><strong>Use the Financial Calculators</strong> to assist you in budgeting, financial planning, or determining loan payments.</p>
             <p><strong>Stay Alert</strong> to tax and accounting news by reviewing the client newsletter.</p>
@@ -141,8 +177,8 @@ layout: base.njk
               <input type="hidden" name="_subject" value="Please add the following new subscriber">
               <button class="btn btn-custom px-3 mb-3"type="submit">Subscribe To Our Newsletter</button>
               
-              {# email provider doesn't know what to do with the relative path #}
-              {# <input type="hidden" name="_next" value="{{ '/' | url}}"> #}
+              
+              
               <input type="hidden" name="_next" value="https://www.actq.com">
               <input type="hidden" name="_captcha" value="true">
               <p><small>By submitting this form you are registering to receive informative emails from Accounteque Services, Inc that will be sent to the email address entered above. At any time you can unsubscribe from these emails using the unsubscribe link included in each message, replying to any message with "unlist" in the subject line, or you can contact us directly at na@actq.com.</small></p>
@@ -156,3 +192,110 @@ layout: base.njk
 
 
 
+</main>
+    <footer class="footer">
+    <div class="footer__content-wrapper flex-wrap justify-content-evenly ">
+        <div class="footer__content text-center">
+        
+            <h3>ACCOUNTEQUE SERVICES, INC</h3>
+            <p>Northbrook IL 60062</p>
+            <p>Phone: 847-768-9100</p>
+            <p>Fax: 847-890-6523</p>
+            <a class="text" href="mailto:help@actq.com">Email Us</a>
+                
+            
+               
+        </div>
+         <div class="footer__contact">
+    <h3 class="text-center">Send Us A Message</h3>
+    <form id="contact-form" action="https://formsubmit.co/6d1857b5ba45aa6ed6b38b99faa75562" method="POST" class="form-floating form " >
+            <div class="form-wrapper  ">
+                <div class="contact-header ">
+                    <div class="mb-3 row">
+                        <div class="col-lg">
+                            <label class="form-label" for="contact-name">Name</label>
+                            <input type="text" class="form-control mt-1" id="contact-name" name="name" placeholder="Your Name" required>
+                            
+                        </div>
+                    </div>
+                    <div class="mb-3 row ">
+                        <div class="col-lg">
+                            <label class="form-label" for="contact-subject">Subject</label>
+                            <input type="text" class="form-control mt-1" id="contact-subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        
+                    </div>
+                    <div class="mb-3 row ">
+                        <div class="col-lg">
+                            <label class="form-label " class="form-label" for="contact-email">Email</label>
+                            <input type="email" class="form-control mt-1" id="contact-email" name="email" placeholder="Your Email Address" required>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-contents ">
+                    <div class="mb-3 ">
+                        <div class="col-lg">
+                            <label for="contact-comments mb-0" class="form-label">Comments</label>
+                            <textarea name="comments" class="form-control" id="contact-comments" cols="30" rows="10" required></textarea>
+                            
+                        </div>
+                    </div>
+                    <input type="text" name="_honey" id="honey-pot">
+                </div>
+            </div>
+        
+        
+        <input type="hidden" name="_next" value="https://www.actq.com">
+        <input type="hidden" name="_captcha" value="true">
+        
+
+         <button class="btn btn-custom px-3"type="submit">Send</button>
+    </form>
+</div>
+    </div>
+    <div class="footer__foot">
+        <h6>Please call us today at 847-768-9100, and we'll show how we'll save you more money!</h6>
+         <hr>
+        <div class="footer__copy-terms">
+            <p class="fs-7">Copyright Accounteque Services, Inc © 2024.</p>
+            <p class="fs-7">By using this site you agree to the <a href="" data-bs-toggle="modal" data-bs-target="#terms-of-service-modal">Terms of Service.</a></p>
+        </div>
+    </div>
+   <div class="modal fade" id="terms-of-service-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Terms of Service</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>This Web site is made available as a service to our clients and others for informational purposes only. These materials and information should not be considered as, or a substitute for, accounting, tax or financial advice. While it is hoped the materials provided here are helpful as background material, it is not warranted either expressly or implied as accurate or complete. You should refrain in taking any action based upon the information provided here until you have received proper counsel.
+    
+    In addition, you understand that any links to any other web site or services does not constitute endorsement of or warranty of any service, product or information provided on their site(s). These links are provided for convenience only.
+    
+    While our intent is to make transmissions to and from this web site secure, it is understood that no warranty of security can be made and that unforeseen security breaches by "hackers" is a possibility, however slight.
+    
+    Reproduction of part or all of the contents on this site in any form is prohibited other than for individual use only and it may not be shared with any third party. All content on this site is copyright protected and/or trademarked as appropriate and may not be copied, duplicated or altered in any way.
+    
+    </p>
+    <p>© 2023. All Rights Reserved.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</footer>
+    <script src="/static/js/main.js" type="module"></script>
+    <script src="/static/js/boots-bundle.js" type="module"></script>
+    
+</body>
+    
+
+
+</html>
