@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}">
-    <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/static/css/styles.css' | url }}" />
+    <link rel="icon" href="{{ '/assets/favicon.ico' | url }}" sizes="32x32" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-</head>
-<body>
+  </head>
+  <body>
     {% include "header.njk" %}
 
-    <main class="main">{{ content | safe}}</main>
+    <main class="main">{{ content | safe }}</main>
     {% include "footer.njk" %}
     <script src="{{ '/static/js/main.js' | url }}" type="module"></script>
     <script src="{{ '/static/js/boots-bundle.js' | url }}" type="module"></script>
-    {# <script>{% include "js-bundle.njk" %}</script> #}
-</body>
-    
-
-
+  </body>
 </html>
