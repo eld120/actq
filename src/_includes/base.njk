@@ -4,7 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="cf-2fa-verify" value="KWpgNdt47ngR9Cl" />
-    <title>{{ title }}</title>
+
+    {# Primary Meta Tags #}
+    <title>{{ title or "Accounteque Services - Professional Accounting & Tax Services in Northbrook, IL" }}</title>
+    <meta name="title" content="{{ title or 'Accounteque Services - Professional Accounting & Tax Services in Northbrook, IL' }}" />
+    <meta name="description" content="{{ description or 'Professional accounting, tax preparation, and financial planning services for individuals and small businesses in Northbrook, IL. Expert help with bookkeeping, payroll, and tax compliance.' }}" />
+    <meta name="keywords" content="accounting services, tax preparation, financial planning, bookkeeping, payroll, Northbrook IL, small business accounting, CPA, tax services" />
+    <meta name="author" content="Accounteque Services, Inc" />
+
+    {# Open Graph / Facebook #}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.actq.com{{ page.url or '/' }}" />
+    <meta property="og:title" content="{{ title or 'Accounteque Services - Professional Accounting & Tax Services' }}" />
+    <meta property="og:description" content="{{ description or 'Professional accounting, tax preparation, and financial planning services for individuals and small businesses in Northbrook, IL.' }}" />
+    <meta property="og:image" content="https://www.actq.com{{ '/assets/actq_logo.png' | url }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Accounteque Services, Inc" />
+
+    {# Twitter #}
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.actq.com{{ page.url or '/' }}" />
+    <meta property="twitter:title" content="{{ title or 'Accounteque Services - Professional Accounting & Tax Services' }}" />
+    <meta property="twitter:description" content="{{ description or 'Professional accounting, tax preparation, and financial planning services for individuals and small businesses in Northbrook, IL.' }}" />
+    <meta property="twitter:image" content="https://www.actq.com{{ '/assets/actq_logo.png' | url }}" />
+
+    {# Canonical URL #}
+    <link rel="canonical" href="https://www.actq.com{{ page.url or '/' }}" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
