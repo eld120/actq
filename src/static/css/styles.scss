@@ -58,8 +58,6 @@ header {
   }
   .navbar {
     padding: 0.5em 2.75em 0.5em 3em;
-    // #nav-img-sm, #nav-img-md;
-    //         display: none;
   }
   .actq-logo {
     height: 75%;
@@ -84,20 +82,13 @@ header {
 
     .carousel-page {
       display: flex;
-      // gap: 3em;
-
       justify-content: space-around;
       align-items: center;
       margin: auto 0;
       padding-bottom: 2.7em;
-      // background-color: rgba(0, 0, 0, 0.219);
-      // -webkit-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
-      // -moz-box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
-      // box-shadow: 1px 1px 2px 0px rgba(37, 37, 37, 0.65);
       .text-container {
         height: 60svh;
         height: 60vh;
-        // background: #789db15e;
         border-radius: 3px;
         width: 35vh;
         padding: 14px;
@@ -111,22 +102,16 @@ header {
         height: 60vh;
         object-fit: cover;
         border-radius: 6px;
-        // border-radius:0 .25em .25em 0;
       }
     }
     .carousel-text {
-      // max-height: 25em;
-
       max-width: 25vw;
       min-width: 12em;
       height: 100%;
       color: $custom-color;
-      //padding: 1.5em 1.5em;
-      // border-radius: .25em 0 0 .25em;
     }
     .carousel-control-next,
     .carousel-control-prev {
-      // justify-content: flex-end;
       padding: 1em;
       display: flex;
       align-items: flex-end;
@@ -161,7 +146,6 @@ header {
   &__newsletter {
     min-height: 85vh;
     width: 75vw;
-    // border-top: 3px solid #2D5A72;
     padding-top: 3em;
     .text-wrapper {
       width: 80vw;
@@ -241,28 +225,6 @@ header {
       color: $accent-color;
     }
   }
-  // .services-content::before{
-  //     content: '';
-  //     position: sticky;
-  //     top: 0;
-  //     left: 0;
-  //     bottom: 0;
-  //     z-index: 0;
-  //     display: block;
-  //     height: 100vh;
-  //     width: 35vw;
-  //     background-image: url('../../assets/savings-jar.jpg' ) ;
-  //     background-repeat: no-repeat;
-  //     background-position: left;
-  //     background-size: auto 100vh;
-  //}
-
-  // .services-wrapper{
-  //     position: relative;
-  //     z-index: 2;
-  // }
-
-  // About Page
 
   .about-wrapper {
     margin: 2em auto;
@@ -307,13 +269,10 @@ header {
     color: white;
   }
   &__contact {
-    // padding: 1.5em 2em;
-    //margin: 0 auto;
     max-width: 38em;
     .form-wrapper {
       display: flex;
       gap: 0.5em;
-      // padding: 1em 0;
       flex-wrap: wrap;
     }
 
@@ -324,7 +283,6 @@ header {
     }
     .contact-contents {
       width: 254px;
-      // padding-top: 2.05em;
     }
     #honey-pot {
       display: none;
@@ -373,15 +331,6 @@ header {
         padding: 20vh 5em;
         text-align: center;
       }
-      // Services Page
-      // .services-content{
-      //     .img;
-      //         position: absolute;
-      //         z-index: 0;
-      //     .text-wrapper{
-      //         z-index: 2      ;
-      //}
-      //}
     }
   }
 }
@@ -389,10 +338,6 @@ header {
   header {
     .navbar {
       padding: 0.5em 1.5em 0.5em 2.25em;
-      // #nav-img-sm, #nav-img-lg;
-      //     display: none;
-      // #nav-img-md;
-      //     display: block;
       .navbar-brand {
         width: 300px;
         height: 80px;
@@ -405,7 +350,6 @@ header {
   }
   .main {
     &__hero-section {
-      // padding: ;
       .carousel-page {
         flex-direction: column;
         img {
@@ -427,7 +371,6 @@ header {
         text-align: center;
       }
     }
-    // Services Page
     .services-content {
       padding: 2em 1.5em;
       .img {
