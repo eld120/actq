@@ -8,16 +8,17 @@ const paths = {
   "/": "Home",
 };
 const navbarToggler = document.querySelector(".navbar-toggler");
-
 const offcanvasElement = document.getElementById("navbarSupportedContent");
 
-offcanvasElement.addEventListener("shown.bs.offcanvas", () => {
-  navbarToggler.setAttribute("aria-expanded", "true");
-});
+if (offcanvasElement && navbarToggler) {
+  offcanvasElement.addEventListener("shown.bs.offcanvas", () => {
+    navbarToggler.setAttribute("aria-expanded", "true");
+  });
 
-offcanvasElement.addEventListener("hidden.bs.offcanvas", () => {
-  navbarToggler.setAttribute("aria-expanded", "false");
-});
+  offcanvasElement.addEventListener("hidden.bs.offcanvas", () => {
+    navbarToggler.setAttribute("aria-expanded", "false");
+  });
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   navLinks.forEach((element) => {
