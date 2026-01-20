@@ -301,6 +301,22 @@ header {
       height: 60%;
       width: 60%;
     }
+
+    // Remove button styling from Client Login in mobile menu
+    .offcanvas {
+      .btn-custom {
+        background-color: transparent;
+        border-color: transparent;
+        color: inherit;
+        padding: 0.5rem 1rem;
+        text-align: left;
+      }
+
+      .btn-custom:hover {
+        background-color: transparent;
+        color: inherit;
+      }
+    }
   }
 
   .main {
